@@ -1,0 +1,158 @@
+% to run it in console: pdflatex main.tex && makeglossaries main && pdflatex main.tex // second for acronyms & glossaries
+% also bibtex main -- for bibtex 
+% pdflatex -> bibtex + or makeglossaries -> pdflatex
+% pdflatex -shell-escape main.tex
+
+
+%!TEX root = main.tex
+\documentclass[a4paper,11pt]{report} %размер бумаги устанавливаем А4, шрифт 12пунк
+\usepackage[T1]{fontenc} 
+\usepackage{mathptmx} % times new roman
+\usepackage[utf8]{inputenc}%включаем свою кодировку: koi8-r или utf8 в UNIX, cp1251 
+\usepackage[toc, acronym]{glossaries}
+ 
+\usepackage[english]{babel}%используем русский и английский языки с переносами
+\usepackage{amssymb,amsfonts,amsmath,mathtext,cite,enumerate,float} 
+\usepackage[unicode]{hyperref} % to make ref clickable
+\usepackage{graphicx} %хотим вставлять в диплом рисунки?
+% \usepackage{epstopdf}
+% \usepackage[dvips]{graphicx} % not working .. image is hidden
+
+
+\graphicspath{{images/intro/}}%путь к рисункам
+
+\usepackage{geometry} % Меняем поля страницы
+% \addtolength{\hoffset}{2.5mm} % shift all text
+\geometry{left=2.5cm}% левое поле; 30 mm should be
+\geometry{right=2.5cm}% правое поле; 30 mm should be
+\geometry{top=2.5cm}% верхнее поле; 38 mm should be 
+\geometry{bottom=2.5cm}% нижнее поле; 38mm should be
+
+\renewcommand{\theenumi}{\arabic{enumi}}% Меняем везде перечисления на цифра.цифра
+\renewcommand{\labelenumi}{\arabic{enumi}}% Меняем везде перечисления на цифра.цифра
+\renewcommand{\theenumii}{.\arabic{enumii}}% Меняем везде перфра.цифра
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}.}% Мена цифра.цифра
+\renewcommand{\theenumiii}{.\arabic{enumiii}}% Меняем везцифра.цифра
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}
+\usepackage{cite} % clever references
+
+
+
+\usepackage{setspace} % to manpulate spacing
+\usepackage{indentfirst} %делать отступ в начале параграфа
+\usepackage{enumerate}  %создание и автоматическая нумерация списков
+\usepackage{tabularx}  %продвинутые таблицы
+\usepackage{tocvsec2} % for settocdepth; diffrent level of depth
+\settocdepth{subsection} % for all document; section, subsection & co
+
+\makeatletter
+\def\@makechapterhead#1{%
+  \vspace*{50\p@}% <----------------- Space from top of page to Chapter #
+  {\parindent \z@ \raggedright \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+        \huge\bfseries \thechapter.\ % <-- Chapter # (without "Chapter")3
+    \fi
+    \interlinepenalty\@M
+    #1\par\nobreak% <------------------ Chapter title
+    \vskip 30\p@% <------------------ Space between chapter title and first paragraph
+  }}
+\makeatother
+
+% \renewcommand{\thechapter}{\Roman{chapter}}
+
+\usepackage[titletoc]{appendix}
+
+% \usepackage{titlesec}  % to remove chapter name
+% \titleformat{\chapter}[display]
+%   {\Huge\bfseries}
+%   {}
+%   {0pt}
+%   {\thechapter.\ }
+
+% \titleformat{name=\chapter,numberless}[display]
+%   {\Huge\bfseries}
+%   {}
+%   {0pt}
+%   {}
+
+\setcounter{secnumdepth}{3} % to numerate subsection -- 3;
+
+
+\usepackage[nottoc]{tocbibind}
+
+\makeglossaries
+\newglossaryentry{latex}
+{
+        name=latex,
+        description={Is a mark up language specially suited for 
+scientific documents}
+}
+\newglossaryentry{maths}
+{
+        name=mathematics,
+        description={Mathematics is what mathematicians do}
+}
+\newglossaryentry{formula}
+{
+        name=formula,
+        description={A mathematical expression}
+}
+ 
+\newacronym{gcd}{GCD}{Greatest Common Divisor}
+\newacronym{lcm}{LCM}{Least Common Multiple}
+ 
+
+
+% Bibtex
+% \makeatletter
+% \renewcommand{\@biblabel}[1]{#1.} %Заменяем библиографию с квадратных скобок на точку в списке литературы
+% \makeatother
+
+% \addcontentsline{toc}{chapter}{}
+
+
+\begin{document}
+
+\input{title}% это титульный лист
+
+ 
+\begin{spacing}{1.2}
+\tableofcontents 
+% \addcontentsline{toc}{chapter}{Appendix A} % since nu,ber is removed.
+\end{spacing} 
+\newpage
+
+% list of tables
+\listoftables
+% % list of figures
+\listoffigures
+% % glossary & acronim
+\printglossary[type=\acronymtype]
+\printglossary
+
+\input{introduction}
+\input{hardware}
+
+
+AZAZAZA
+Their long-term aid ~\cite{Haggarty:01} ~\cite{Haggarty:02}
+
+The \Gls{latex} typesetting markup language is specially suitable 
+for documents that include \gls{maths}. \Glspl{formula} are 
+rendered properly an easily once one gets used to the commands.
+ 
+Given a set of numbers, there are elementary methods to compute 
+its \acrlong{gcd}, which is abbreviated \acrshort{gcd}. This 
+process is similar to that used for the \acrfull{lcm}.
+
+\renewcommand{\bibname}{References}
+\bibliographystyle{unsrt}
+\bibliography{refs}
+
+\input{appendix_a}% это титульный лист
+
+
+
+\end{document}
+
+

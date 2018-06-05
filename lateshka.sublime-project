@@ -1,0 +1,15 @@
+{
+    "folders":
+    [
+        {
+            "name": "TEX-files",
+            "path": "./tex_files",
+            "file_include_patterns": [
+                "*.tex",            ],
+        }
+    ],
+    "settings":
+    {
+        "TEXroot": "./tex_files/main.tex"
+    }
+}

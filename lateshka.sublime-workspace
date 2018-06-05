@@ -1,0 +1,1046 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"execute",
+				"execute_values"
+			],
+			[
+				"tx",
+				"txt_list"
+			],
+			[
+				"txt_",
+				"txt_temp"
+			],
+			[
+				"cutt",
+				"cutted_files"
+			],
+			[
+				"w",
+				"what_to_write"
+			],
+			[
+				"fil",
+				"filename"
+			],
+			[
+				"c",
+				"counter"
+			],
+			[
+				"co",
+				"counter"
+			],
+			[
+				"file",
+				"file_temp"
+			],
+			[
+				"cu",
+				"cutted_sbs"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"we",
+				"we_have_data"
+			],
+			[
+				"remo",
+				"remove_file"
+			],
+			[
+				"tra",
+				"track_distance"
+			],
+			[
+				"no",
+				"no_aircraft_path"
+			],
+			[
+				"last",
+				"last_track"
+			],
+			[
+				"de",
+				"delkov"
+			],
+			[
+				"ica_",
+				"icao_good_list"
+			],
+			[
+				"icao",
+				"icao_good_list"
+			],
+			[
+				"ic",
+				"icao_query"
+			],
+			[
+				"type",
+				"type_of_flight"
+			],
+			[
+				"min",
+				"min_altitude_type_detection"
+			],
+			[
+				"typ",
+				"type_of_flight"
+			],
+			[
+				"ty",
+				"type_of_flight"
+			],
+			[
+				"vertic",
+				"vertical_speed_py"
+			],
+			[
+				"for",
+				"forbidden_MSG"
+			],
+			[
+				"ve",
+				"vertical_speed"
+			],
+			[
+				"new",
+				"new_param"
+			],
+			[
+				"str",
+				"string_counter"
+			],
+			[
+				"s",
+				"string_counter"
+			],
+			[
+				"ica",
+				"icao_amount_strings"
+			],
+			[
+				"string",
+				"string_counter"
+			],
+			[
+				"NEW",
+				"NEW_PARAM"
+			],
+			[
+				"fir",
+				"first_string"
+			],
+			[
+				"old",
+				"old_param"
+			],
+			[
+				"OL",
+				"OLD_time_py"
+			],
+			[
+				"New",
+				"NEW_time_py"
+			],
+			[
+				"te",
+				"temp_icao"
+			],
+			[
+				"ico",
+				"icao_list"
+			],
+			[
+				"max",
+				"max_distance"
+			],
+			[
+				"di",
+				"distance_to_station"
+			],
+			[
+				"ai",
+				"aircraft_lon"
+			],
+			[
+				"air",
+				"aircraft_lat"
+			],
+			[
+				"noi",
+				"noise_station_alt"
+			],
+			[
+				"tr",
+				"track_distance"
+			],
+			[
+				"n",
+				"noise_query"
+			],
+			[
+				"buf",
+				"buffer_size"
+			],
+			[
+				"prev",
+				"prev_string"
+			],
+			[
+				"ba",
+				"bad_string_counter"
+			],
+			[
+				"bu",
+				"buffer_size"
+			],
+			[
+				"pre",
+				"previous_param"
+			],
+			[
+				"pa",
+				"param_memory"
+			],
+			[
+				"trac",
+				"track_memory"
+			],
+			[
+				"first_ti",
+				"first_time_icao"
+			],
+			[
+				"tim",
+				"time_py"
+			],
+			[
+				"las",
+				"last_time_param"
+			],
+			[
+				"last_gn",
+				"last_gnd_angle"
+			],
+			[
+				"la",
+				"last_track"
+			],
+			[
+				"param_",
+				"param_from_msg"
+			],
+			[
+				"time",
+				"time_py"
+			],
+			[
+				"angle",
+				"angle_py"
+			],
+			[
+				"call",
+				"callsign_py"
+			],
+			[
+				"ver",
+				"vertical_speed_py"
+			],
+			[
+				"long",
+				"longitude_py"
+			],
+			[
+				"fin",
+				"final_txt_query"
+			],
+			[
+				"lon",
+				"longitude_py"
+			],
+			[
+				"tes",
+				"tester"
+			],
+			[
+				"last_ti",
+				"last_time_param"
+			],
+			[
+				"view",
+				"view_y_f"
+			],
+			[
+				"srt",
+				"str_time"
+			],
+			[
+				"st",
+				"str_date"
+			],
+			[
+				"ti",
+				"time_py"
+			],
+			[
+				"qu",
+				"query_for_distance"
+			],
+			[
+				"tot",
+				"total_query"
+			],
+			[
+				"dis",
+				"distance_table"
+			],
+			[
+				"poi",
+				"point_3d"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"txt",
+				"txt_temp"
+			],
+			[
+				"all",
+				"all_strings"
+			],
+			[
+				"ms",
+				"msg_6_8"
+			],
+			[
+				"dist",
+				"distance_1"
+			],
+			[
+				"para",
+				"param_from_msg"
+			],
+			[
+				"altitude",
+				"altitude_py"
+			],
+			[
+				"totl",
+				"total_query"
+			],
+			[
+				"update",
+				"update_last_time_param"
+			],
+			[
+				"re",
+				"read_ready"
+			],
+			[
+				"Poit",
+				"POINT"
+			],
+			[
+				"LID",
+				"LID_PT1"
+			],
+			[
+				"se",
+				"setdar"
+			],
+			[
+				"num",
+				"number_of_rows"
+			],
+			[
+				"nu",
+				"number_of_rows"
+			],
+			[
+				"da",
+				"data_size"
+			],
+			[
+				"hoe",
+				"how_many_lines"
+			],
+			[
+				"ho",
+				"how_many_FOV_lines"
+			],
+			[
+				"number",
+				"number_of_lines"
+			],
+			[
+				"ma",
+				"marker_color"
+			],
+			[
+				"mar",
+				"marker_size"
+			],
+			[
+				"pix",
+				"pixels_row"
+			],
+			[
+				"pxi",
+				"pixels_row"
+			],
+			[
+				"XLI",
+				"XLimMode"
+			],
+			[
+				"x",
+				"x_tick_step"
+			],
+			[
+				"Mark",
+				"MarkerSize"
+			],
+			[
+				"idx_",
+				"idx_begin"
+			],
+			[
+				"Mar",
+				"MarkerSize"
+			],
+			[
+				"ca",
+				"cancel"
+			],
+			[
+				"read",
+				"read_counter"
+			],
+			[
+				"nume",
+				"number_of_rows"
+			],
+			[
+				"siz",
+				"size_to_read"
+			],
+			[
+				"Byte",
+				"BytesAvailableFcn"
+			],
+			[
+				"ui",
+				"uint32"
+			],
+			[
+				"state",
+				"state_d"
+			],
+			[
+				"SE",
+				"SERIAL_IN"
+			],
+			[
+				"tdc_S",
+				"tdc_SPI_new_data"
+			],
+			[
+				"sta",
+				"tdc_SPI_start"
+			],
+			[
+				"dela",
+				"delay"
+			],
+			[
+				"write",
+				"write_data_B"
+			],
+			[
+				"AR",
+				"DATA_ARRAY_SIZE"
+			],
+			[
+				"to",
+				"toggle"
+			],
+			[
+				"dat",
+				"data_chA"
+			],
+			[
+				"D",
+				"DATA_ARRAY_SIZE"
+			],
+			[
+				"in",
+				"internal_reference_array"
+			],
+			[
+				"SOFT",
+				"SOFTWARE_RESET_ARRAY_SIZE"
+			],
+			[
+				"pr",
+				"printBits"
+			],
+			[
+				"ge",
+				"getting_data_btn"
+			],
+			[
+				"get",
+				"getting_data"
+			],
+			[
+				"pus",
+				"pushbutton_run10"
+			],
+			[
+				"delay",
+				"delayMicroseconds"
+			],
+			[
+				"pin",
+				"pinMode"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "tex_files/main.tex",
+			"settings":
+			{
+				"buffer_size": 1038,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "%!TEX root = main.tex\n\n\\documentclass[a4paper,11pt]{article} %размер бумаги устанавливаем А4, шрифт 12пунк\n\\usepackage[T1]{fontenc} \n\\usepackage{mathptmx} % times new roman\n\\usepackage[utf8]{inputenc}%включаем свою кодировку: koi8-r или utf8 в UNIX, cp1251 \n\\usepackage[acronym]{glossaries}\n \n\\makeglossaries\n\\newglossaryentry{latex}\n{\n    name=latex,\n    description={Is a mark up language specially suited \n    for scientific documents}\n}\n\\newglossaryentry{maths}\n{\n    name=mathematics,\n    description={Mathematics is what mathematicians do}\n}\n\\newacronym{gcd}{GCD}{Greatest Common Divisor} \n\\newacronym{lcm}{LCM}{Least Common Multiple}\n\n\n\\usepackage[english]{babel}%используем русский и английский языки с переносами\n\\usepackage{amssymb,amsfonts,amsmath,mathtext,cite,enumerate,float} \n\\usepackage[unicode]{hyperref} % to make ref clickable\n\\usepackage[dvips]{graphicx} %хотим вставлять в диплом рисунки?\n\\graphicspath{{images/intro/}{images/software/}}%путь к рисункам\n\\usepackage{geometry} % Меняем поля страницы\n% \\addtolength{\\hoffset}{2.5mm} % shift all text\n\\geometry{left=2.5cm}% левое поле; 30 mm should be\n\\geometry{right=2.5cm}% правое поле; 30 mm should be\n\\geometry{top=2.5cm}% верхнее поле; 38 mm should be \n\\geometry{bottom=2.5cm}% нижнее поле; 38mm should be\n\n\\renewcommand{\\theenumi}{\\arabic{enumi}}% Меняем везде перечисления на цифра.цифра\n\\renewcommand{\\labelenumi}{\\arabic{enumi}}% Меняем везде перечисления на цифра.цифра\n\\renewcommand{\\theenumii}{.\\arabic{enumii}}% Меняем везде перфра.цифра\n\\renewcommand{\\labelenumii}{\\arabic{enumi}.\\arabic{enumii}.}% Мена цифра.цифра\n\\renewcommand{\\theenumiii}{.\\arabic{enumiii}}% Меняем везцифра.цифра\n\\renewcommand{\\labelenumiii}{\\arabic{enumi}.\\arabic{enumii}.\\arabic{enumiii}.}\n\\usepackage{cite} % clever references\n\n% Bibtex\n\\makeatletter\n\\bibliographystyle{unsrt} %Стиль библиографических ссылок БибТеХа - нумеровать в порядке упоминания\n\\renewcommand{\\@biblabel}[1]{#1.} %Заменяем библиографию с квадратных скобок на точку в списке литературы\n\\makeatother\n\n\\usepackage{setspace} % to manpulate spacing\n\\usepackage{indentfirst} %делать отступ в начале параграфа\n\\usepackage{enumerate}  %создание и автоматическая нумерация списков\n\\usepackage{tabularx}  %продвинутые таблицы\n\\usepackage{tocvsec2} % for settocdepth; diffrent level of depth\n\\settocdepth{subsection} % for all document; section, subsection & co\n\n\\makeatletter\n\\def\\@makechapterhead#1{%\n  \\vspace*{50\\p@}% <----------------- Space from top of page to Chapter #\n  {\\parindent \\z@ \\raggedright \\normalfont\n    \\ifnum \\c@secnumdepth >\\m@ne\n        \\huge\\bfseries \\thechapter.\\ % <-- Chapter # (without \"Chapter\")3\n    \\fi\n    \\interlinepenalty\\@M\n    #1\\par\\nobreak% <------------------ Chapter title\n    \\vskip 30\\p@% <------------------ Space between chapter title and first paragraph\n  }}\n\\makeatother\n\n% \\renewcommand{\\thechapter}{\\Roman{chapter}}\n\\usepackage[titletoc]{appendix}\n\n% \\usepackage{titlesec}  % to remove chapter name\n% \\titleformat{\\chapter}[display]\n%   {\\Huge\\bfseries}\n%   {}\n%   {0pt}\n%   {\\thechapter.\\ }\n\n% \\titleformat{name=\\chapter,numberless}[display]\n%   {\\Huge\\bfseries}\n%   {}\n%   {0pt}\n%   {}\n\n% \\setcounter{secnumdepth}{3} % to numerate subsection -- 3;\n\n\\begin{document}\n% \\input{title}% это титульный лист\n\n% \\begin{spacing}{1.2}\n% \\tableofcontents \n% % \\addcontentsline{toc}{chapter}{Appendix A} % since nu,ber is removed.\n% \\end{spacing} \n\n% \\listoffigures\n% \\listoftables\n\n% \\input{introduction}% это титульный лист\n% \\input{hardware}% это титульный лист\n% \\input{appendix_a}% это титульный лист\n\n\n\n\n\n% \\begin{spacing}{0.9}\n% \\bibliographystyle{plain}\n% \\bibliography{refs}\n% \\end{spacing}\n\n\n\n\n\n\n% \\clearpage\n\\printglossary[type=\\acronymtype]\n\\printglossary\n\n\n\n\\end{document}\n\n\n",
+			"settings":
+			{
+				"buffer_size": 3746,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tex_files/introduction.tex",
+			"settings":
+			{
+				"buffer_size": 4616,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tex_files/hardware.tex",
+			"settings":
+			{
+				"buffer_size": 1680,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 124.0,
+		"last_filter": "remove",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Disable Package"
+			],
+			[
+				"jso",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 542.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/delkov/Documents/THESIS/Lateshka/tex_files"
+	],
+	"file_history":
+	[
+		"/home/delkov/Documents/THESIS/test/test.ist",
+		"/home/delkov/Documents/THESIS/test/test.glo",
+		"/home/delkov/Documents/THESIS/test.ind",
+		"/home/delkov/Documents/THESIS/test.idx",
+		"/home/delkov/Documents/THESIS/Lateshka/tex_files/title.tex",
+		"/home/delkov/Documents/THESIS/Lateshka/tex_files/appendix_a.tex",
+		"/home/delkov/Documents/THESIS/Lateshka/tex_files/introduction.tex",
+		"/home/delkov/Documents/THESIS/Lateshka/tex_files/hardware.tex",
+		"/home/delkov/Documents/THESIS/Lateshka/lateshka.sublime-project",
+		"/home/delkov/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings",
+		"/home/delkov/Shared/relnotes2317-unix.txt",
+		"/home/delkov/Documents/THESIS/CorporateLaTeX-1.4/Examples/article/article_main.tex",
+		"/home/delkov/Documents/air/WORKING_STATION/ftp_parser.py",
+		"/home/delkov/Documents/air/WORKING_STATION/small_parser.py",
+		"/home/delkov/Documents/air/WORKING_STATION/msg_checker.py",
+		"/home/delkov/Documents/air/TODO/public/javascripts/services.js",
+		"/home/delkov/Documents/air/TODO/public/javascripts/controllers.js",
+		"/home/delkov/Documents/air/WORKING_STATION/GOOD_VSFTPD.CONF",
+		"/home/delkov/Documents/air/HOME_TODO/public/javascripts/services.js",
+		"/home/delkov/Documents/air/HOME_TODO/public/javascripts/controllers.js",
+		"/home/delkov/Documents/air/TODO/public/javascripts/directives.js",
+		"/home/delkov/Documents/air/TODO/public/javascripts/filters.js",
+		"/home/delkov/Documents/air/TODO/public/javascripts/app.js",
+		"/home/delkov/Documents/air/TODO/app.js",
+		"/home/delkov/Documents/air/TODO/queries.js",
+		"/home/delkov/Documents/air/WORKING_STATION/new_maker.py",
+		"/home/delkov/Documents/air/WORKING_STATION/file_sender.sh",
+		"/home/delkov/Documents/air/WORKING_STATION/home_small_parser.py",
+		"/home/delkov/Documents/air/WORKING_STATION/ftp_home_parser.py",
+		"/home/delkov/Documents/air/WORKING_STATION/small_home_parser.py",
+		"/home/delkov/Documents/air/WORKING_STATION/home_file_sender.sh",
+		"/home/delkov/Documents/air/WORKING_STATION/ftp_home_parser (copy).py",
+		"/home/delkov/Documents/air/FTP/ftp_store/bad.txt",
+		"/home/delkov/Documents/air/WORKING_STATION/cut_real_parser.py",
+		"/home/delkov/Documents/air/FTP/ftp_store/VNK001_06_01_2017_22_35_34.txt",
+		"/home/delkov/Documents/programming/sql_tips",
+		"/home/delkov/Documents/programming/sql_tips.txt",
+		"/home/delkov/Documents/air/DB/DB_v2.sql",
+		"/home/delkov/Documents/air/destination_path/NEW_PARSER_v7.py",
+		"/home/delkov/Documents/air/DB/create_DB.sql",
+		"/home/delkov/Documents/MOSCOW/ECO_COMPLETE/FTP/ftp_sample2.txt",
+		"/home/delkov/Documents/air/WORKING_STATION/server_supervisor.conf",
+		"/home/delkov/Documents/air/WORKING_STATION/perm_test.py",
+		"/home/delkov/mojo/VNK002_18_05_2018_22_33_13.txt",
+		"/home/delkov/Documents/air/WORKING_STATION/vsftpd.conf",
+		"/home/delkov/Documents/air/WORKING_STATION/supervisord.conf",
+		"/home/delkov/Documents/air/WORKING_STATION/postgresql.conf",
+		"/home/delkov/Documents/air/WORKING_STATION/dump1090.sh",
+		"/home/delkov/Documents/air/DB/backup.sh",
+		"/home/delkov/Documents/air/DB/routes.sql",
+		"/home/delkov/Documents/air/DB/aircrafts.sql",
+		"/home/delkov/Documents/air/DB/20180518_152701.txt",
+		"/home/delkov/Documents/air/sh_test.sh",
+		"/home/delkov/Documents/air/DB/dump.sql",
+		"/home/delkov/Documents/air/routes.sql",
+		"/home/delkov/Documents/air/aircrafts.sql",
+		"/home/delkov/Documents/air/TODO/dump.sql",
+		"/var/lib/postgresql/routes.sql",
+		"/home/delkov/Documents/air/FTP/ECO_ftp_parser.py",
+		"/home/delkov/Documents/air/WORKING_STATION/split_noise_gz.py",
+		"/home/delkov/.cache/.fr-8DuByu/VNK001_31_12_2016_20_35_40.tx",
+		"/home/delkov/Documents/air/FTP/ftp_store/31-12-2016 19:35:41.txt",
+		"/home/delkov/Documents/air/FTP/ftp_store/31-12-2016 19:35:40.txt",
+		"/home/delkov/Documents/air/FTP/ftp_store/31-12-2016 19:35:39.txt",
+		"/home/delkov/Documents/air/FTP/ftp_store/138.0 99.txt",
+		"/home/delkov/Documents/air/FTP/ftp_store/POW 393 min.txt",
+		"/home/delkov/Documents/air/FTP/ftp_store/99\n 47\n.txt",
+		"/home/delkov/Documents/air/FTP/ftp_store/31-12-2016 20:35:51.txt",
+		"/home/delkov/Documents/air/FTP/ftp_store/31-12-2016 19:35:59",
+		"/home/delkov/Documents/air/FTP/ftp_store/31-12-2016 19:35:49",
+		"/home/delkov/Documents/air/FTP/ftp_store/31-12-2016 19:35:39",
+		"/home/delkov/.cache/.fr-lFz2Sf/31-12-2016 19:35:39",
+		"/home/delkov/Documents/air/FTP/ftp_store/19:35:49 VNK001",
+		"/home/delkov/.cache/.fr-cVQtbS/test.txt",
+		"/home/delkov/.cache/.fr-YRRbem/test.txt",
+		"/home/delkov/.cache/.fr-MRXVso/31-12-2016 19:35:39",
+		"/home/delkov/Documents/air/FTP/ftp_store/test.txt",
+		"/home/delkov/.cache/.fr-1JaL7C/31-12-2016 19:35:39",
+		"/home/delkov/.cache/.fr-QDLBFg/VNK001_31_12_2016_19_35_39.tx",
+		"/home/delkov/Documents/air/FTP/ftp_store/test",
+		"/home/delkov/.cache/.fr-erGsDN/VNK001_31_12_2016_19_35_39.tx",
+		"/home/delkov/Documents/air/FTP/ftp_gen.py",
+		"/home/delkov/Documents/air/TODO/bin/www",
+		"/home/delkov/Documents/air/sbs_store/sbs",
+		"/home/delkov/Documents/air/sbs_store/cutted_files/cutted_sbs.2018-05-17_12-36-15.txt",
+		"/home/delkov/Documents/air/sbs_store/cutted_files/cutted_sbs.2018-05-17_12-36-05.txt",
+		"/home/delkov/Documents/air/NODEJS/file.md",
+		"/home/delkov/Documents/air/NODEJS/index.js",
+		"/home/delkov/Documents/air/NODEJS/app/index.js",
+		"/home/delkov/Documents/air/NODEJS/views/layouts/main.hbs",
+		"/home/delkov/Documents/air/NODEJS/views/home.hbs",
+		"/home/delkov/Documents/air/NODEJS/package.json",
+		"/home/delkov/Documents/air/NODEJS/package-lock.json",
+		"/home/delkov/Documents/air/NODEJS/app/calc.js",
+		"/home/delkov/Documents/air/TODO/package.json",
+		"/home/delkov/Documents/air/WORKING_STATION/air/new_maker.py",
+		"/home/delkov/Documents/air/WORKING_STATION/air/dump1090.sh",
+		"/home/delkov/Documents/air/WORKING_STATION/air/msg_checker.py",
+		"/home/delkov/Documents/air/WORKING_STATION/air/small_parser.py",
+		"/home/delkov/.cache/.fr-uI1qhg/VNK001_31_12_2016_19_35_39.tx",
+		"/home/delkov/Documents/air/FTP/VNK001_06_01_2017_22_34_59.txt",
+		"/home/delkov/Documents/air/FTP/ftp_store/VNK001_06_01_2017_22_34_59.txt",
+		"/home/delkov/.cache/.fr-Q0Ir5B/VNK001_03_01_2017_17_37_44.tx",
+		"/home/delkov/Documents/air/Debug/ftp_samples/VNK001_06_01_2017_22_37_39.txt",
+		"/home/delkov/Documents/air/Debug/ftp_samples/VNK001_06_01_2017_22_35_59.txt",
+		"/home/delkov/Documents/air/Debug/ftp_samples/VNK001_06_01_2017_22_34_59.txt",
+		"/home/delkov/Documents/air/FTP/ftp_store/no_aircraft/NO_AIR2018-04-26-14-31-57_2018-04-26 14:18:20.txt",
+		"/home/delkov/Documents/air/small_parser.py",
+		"/home/delkov/Documents/air/sbs_store/sbs.2018-05-15_12-10-31",
+		"/home/delkov/Documents/air/sbs_store/sbs.2018-05-15_12-10-25",
+		"/home/delkov/Documents/air/sbs_store/sbs.2018-05-15_12-15-34",
+		"/home/delkov/Documents/air/sbs_store/sbs.2018-05-15_12-10-51",
+		"/home/delkov/Documents/air/sbs_store/cutted_files/cutted_sbs.2018-05-15_12-09-02.txt",
+		"/home/delkov/Documents/air/sbs_store/cutted_files/cutted_sbs.2018-05-15_12-08-52.txt",
+		"/home/delkov/Documents/air/sbs_store/cutted_files/cutted_sbs.2018-05-15_12-09-01.txt",
+		"/home/delkov/Documents/air/msg_checker.py",
+		"/home/delkov/Documents/air/WORKING_STATION/file_sender_v0.sh",
+		"/home/delkov/.cache/.fr-krmNgd/cutted_sbs.2018-05-14_16-42-03.txt",
+		"/home/delkov/.cache/.fr-5FFptM/cutted_sbs.2018-05-14_16-41-53.txt",
+		"/home/delkov/Documents/air/sbs_store/sbs.2018-05-14_13-16-03",
+		"/home/delkov/Documents/air/sbs_store/sbs.2018-05-14_13-16-23",
+		"/home/delkov/Documents/air/sbs_store/sbs.2018-05-13_15-52-51",
+		"/home/delkov/Documents/air/WORKING_STATION/old_file_sender.sh",
+		"/home/delkov/Documents/air/test_gz.py",
+		"/home/delkov/Documents/air/file_sender.sh",
+		"/home/delkov/.cache/.fr-Nu2Ft0/cutted_sbs.2018-05-13_14-14-36.txt",
+		"/home/delkov/.cache/.fr-FWBrf9/cutted_sbs.2018-05-13_14-14-06.txt",
+		"/home/delkov/.cache/.fr-QW4Kvd/cutted_sbs.2018-05-13_14-14-36.txt"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"my_desire",
+			"fontsize",
+			"fontsiz",
+			"font"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tex_files/main.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1004,
+								1004
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 403.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3746,
+								3746
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 851.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tex_files/introduction.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2224,
+								2224
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 117.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "tex_files/hardware.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1199,
+								1199
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 69.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 146.0
+	},
+	"pinned_build_system": "",
+	"project": "lateshka.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
