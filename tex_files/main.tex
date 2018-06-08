@@ -28,6 +28,9 @@
 \geometry{top=2.5cm}% верхнее поле; 38 mm should be 
 \geometry{bottom=2.5cm}% нижнее поле; 38mm should be
 
+\renewcommand{\baselinestretch}{1.8} 
+
+
 \renewcommand{\theenumi}{\arabic{enumi}}% Меняем везде перечисления на цифра.цифра
 \renewcommand{\labelenumi}{\arabic{enumi}}% Меняем везде перечисления на цифра.цифра
 \renewcommand{\theenumii}{.\arabic{enumii}}% Меняем везде перфра.цифра
@@ -36,6 +39,14 @@
 \renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}
 \usepackage{cite} % clever references
 
+
+\usepackage{afterpage}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
 
 
 \usepackage{setspace} % to manpulate spacing
@@ -103,6 +114,8 @@ scientific documents}
  
 
 
+
+
 % Bibtex
 % \makeatletter
 % \renewcommand{\@biblabel}[1]{#1.} %Заменяем библиографию с квадратных скобок на точку в списке литературы
@@ -117,6 +130,7 @@ scientific documents}
 
  
 \begin{spacing}{1.2}
+\setcounter{page}{1}
 \tableofcontents 
 % \addcontentsline{toc}{chapter}{Appendix A} % since nu,ber is removed.
 \end{spacing} 

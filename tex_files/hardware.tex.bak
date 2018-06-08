@@ -1,0 +1,96 @@
+\chapter{Hardware}
+\section{azazaz2}
+\paragraph{aza}
+Hello to everyone, I really want to make
+Latex diploma and I will
+\subsection{sub}
+this is sub..
+
+\section{azazaz}
+asdasd as I said in 
+asds
+
+\begin{equation}\label{eq:fourierrow}
+f(x) = \frac{A_0}{2} + \sum \limits_{n=1}^{\infty} A_n \cos \left( \frac{2 n \pi x}{\nu} - \alpha_n \right) 
+\end{equation}
+
+\begin{enumerate}
+\item sdfsdf
+\item sdf
+\item dsfs
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+\begin{minipage}[h]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{skku}} a) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{skku}} \\b)
+\end{minipage}
+
+
+\vfill
+\begin{minipage}[h]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{skku2}} c) \\
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.47\linewidth}
+\center{\includegraphics[width=1\linewidth]{skku2}} d) \\
+\end{minipage}
+
+
+
+\caption{Correlation signal peaks: a) numerical experiment, b)
+registered correlation signals, c) intensity distribution of correlation
+signals in numerical experiment, d) correlation signals intensity
+distribution for DCRAW processed data.}
+\label{fig:test_fig}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{itemize}
+\item sdf,
+\item sdfsdfsdf
+\item sdfs 
+
+\end{itemize}
+
+Also, in the page \pageref{fig:skku}
+
+\section{azazaz}
+
+\begin{table}[H]
+\caption{captions}
+\label{tbl:test_table}
+\begin{center}
+
+\begin{tabular}{|p{0.2\linewidth}|p{0.4\linewidth}|p{0.2\linewidth}|}
+\hline
+azaza: & \textbf{1,0-1,4} & zazaza zazaza \\ \hline
+azaza: & \textbf{0,25-0,30} & zaza zaza \\\hline
+za zazaza: & \textbf{0,25-0,50}& zazazaz zazaza \\  \hline
+\end{tabular}
+\end{center}
+\end{table}
