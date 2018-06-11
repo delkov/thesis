@@ -12,14 +12,14 @@
 \usepackage[toc, acronym]{glossaries}
  
 \usepackage[english]{babel}%используем русский и английский языки с переносами
-\usepackage{amssymb,amsfonts,amsmath,mathtext,cite,enumerate,float} 
+\usepackage{amssymb,amsfonts,amsmath,mathtext,cite,enumerate} 
 \usepackage[unicode]{hyperref} % to make ref clickable
 \usepackage{graphicx} %хотим вставлять в диплом рисунки?
 % \usepackage{epstopdf}
 % \usepackage[dvips]{graphicx} % not working .. image is hidden
 
 
-\graphicspath{{images/intro/}}%путь к рисункам
+\graphicspath{{images/intro/}{images/implementation/}}%путь к рисункам
 
 \usepackage{geometry} % Меняем поля страницы
 % \addtolength{\hoffset}{2.5mm} % shift all text
@@ -30,6 +30,9 @@
 
 \renewcommand{\baselinestretch}{1.8} 
 
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 
 \renewcommand{\theenumi}{\arabic{enumi}}% Меняем везде перечисления на цифра.цифра
 \renewcommand{\labelenumi}{\arabic{enumi}}% Меняем везде перечисления на цифра.цифра
@@ -38,6 +41,11 @@
 \renewcommand{\theenumiii}{.\arabic{enumiii}}% Меняем везцифра.цифра
 \renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}
 \usepackage{cite} % clever references
+
+
+
+\usepackage{floatrow}
+\newfloatcommand{capbtabbox}{table}[][\FBwidth]
 
 
 \usepackage{afterpage}
@@ -70,6 +78,15 @@
 \makeatother
 
 % \renewcommand{\thechapter}{\Roman{chapter}}
+
+
+% to make bold Fig 1.2 /Table & co.
+\usepackage{caption}
+\captionsetup[figure]{labelfont={bf},labelformat={default},labelsep=period,name={Fig.}}
+\captionsetup[table]{labelfont={bf},labelformat={default},labelsep=period,name={Table}}
+
+
+% \usepackage{siunitx}
 
 \usepackage[titletoc]{appendix}
 
@@ -126,7 +143,7 @@ scientific documents}
 
 \begin{document}
 
-\input{title}% это титульный лист
+% \input{title}% это титульный лист
 
  
 \begin{spacing}{1.2}
@@ -137,15 +154,16 @@ scientific documents}
 \newpage
 
 % list of tables
-\listoftables
+% \listoftables
 % % list of figures
-\listoffigures
+% \listoffigures
 % % glossary & acronim
-\printglossary[type=\acronymtype]
-\printglossary
+% \printglossary[type=\acronymtype]
+% \printglossary
 
-\input{introduction}
-\input{hardware}
+% \input{introduction}
+\input{implementation}
+% \input{hardware}
 
 
 AZAZAZA
