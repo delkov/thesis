@@ -203,17 +203,146 @@ The same result can be getting from the Lagrange invariant relationship between 
 Important to note, that even a well-collimated beam has a non-vanishing divergence because of wave-nature of the light, the beam diameter varies (for large distances) with the distance from the laser diode collimator. The resulting beam divergences of the collimated beam:
 
 
+
 \begin{equation}\label{eq:beam_divergence}
 \theta_{\perp/||} = \frac{2\cdot \lambda}{\pi \cdot \text{\O}_{\perp/||}}
 \end{equation}
 
+% \newpage
+
+According to formula \ref{eq:beam_size}, our focal length should be $\sim$ 6.5 mm.
+The nearest suitable aspherical lens has focal length 6.2 mm (Fig. \ref{fig:ld_lens}).
+These laser molded aspheric lense fulfilled all our the needs. By utilizing a single aspheric lens, the need for a multi-lens system is eliminated, allowing for a more compact and robust design. This aspheric lens is anti-reflection coated for optimum transmission in the 600 - 1050 nm wavelength range. The anti-reflection coating provides <0.4\% average reflection over the entire design wavelength range.
+
+
+\begin{figure}
+\begin{floatrow}
+\ffigbox{
+\center{\includegraphics[width=0.65\linewidth]{ld_lens}} 
+}{
+  \caption{Aspheric lens used for laser collimator}%
+\label{fig:ld_lens} % or change caption location
+}
+\capbtabbox{
+
+  \begin{tabular}{|M{4cm}|M{4cm}|}
+\hline
+Effective Focal length: & \textbf{6.2 mm} \\  \hline
+Clear Aperture: & \textbf{3.7 mm} \\  \hline
+Numerial aperture (NA): & \textbf{0.3} \\  \hline
+Material: & \textbf{D-ZK3}  \\ \hline
+Center Thickness: & \textbf{3.484 mm}  \\ \hline
+Coating: & \textbf{ BBAR (600 - 1050 nm)} \\  \hline
+\end{tabular}
+}{%
+\caption{Aspheric lens characteristics}
+\label{tbl:ld_lens_datasheet}
+}
+\end{floatrow}
+\end{figure}
+
+
+
+The second way is using two cylindrical lenses for each axis separately (Fig. \ref{fig:cylindrical_lens}). 
+This allows the use of a lens with a large focal length, because the divergence of the parallel axis is 9$^\circ$, not 25$^\circ$.
+
+
+\begin{figure}
+\begin{floatrow}
+\ffigbox{
+\center{\includegraphics[width=0.65\linewidth]{cylinder_lens}} 
+}{
+  \caption{Two cylindrical lens used for laser collimator}%
+\label{fig:cylindrical_lens} % or change caption location
+}
+\capbtabbox{
+
+  \begin{tabular}{|M{3.5cm}|M{2cm}|M{2cm}|}
+\hline
+Effective Focal length: & \textbf{8 mm} & \textbf{12 mm} \\  \hline
+Clear Aperture: & \textbf{4 mm} & \textbf{5.4 mm}\\  \hline
+Numerial aperture (NA): & \textbf{0.31} & \textbf{0.25}\\  \hline
+Material: & \textbf{N-BK7}  & \textbf{N-BK7}\\ \hline
+Center Thickness: & \textbf{3 mm}  & \textbf{2.2 mm}\\ \hline
+Coating: & \textbf{ BBAR (600 - 1050 nm)} & \textbf{12 mm} \\  \hline
+\end{tabular}
+}{%
+\caption{Two cylindrical lens characteristics (for each axis)}
+\label{tbl:ld_cylinder_lens_datasheet}
+}
+\end{floatrow}
+\end{figure}
 
 
 
 
-The simulation results verify the availability that the beam from the
-laser diode meets the requirements after optical emission from system.
+Once the analytical calculations are completed, and the system variables are determined, the ZEMAX optical design program is used to simulate a specific example.
+ZEMAX is a design software containing features and tools to design, optimize, and analyze any optical system.
 
+
+
+\begin{figure}[H]
+\begin{minipage}[h]{0.48\linewidth}
+\center{\includegraphics[height=3.25cm, width=1\linewidth]{zem_1_lens}}\\ a)
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.45\linewidth}
+\center{\includegraphics[height=3.25cm, width=1\linewidth]{zem_2_lens}}\\ b)
+\end{minipage}
+\vfill
+\begin{minipage}[h]{0.495\linewidth}
+\center{\includegraphics[height=6cm, width=1\linewidth]{spot_1_lens}} \\ c)
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.495\linewidth}
+\center{\includegraphics[height=6cm, width=1\linewidth]{spot_2_lens}} \\ d)
+\end{minipage}
+
+\caption{The ray tracing and  also beam spots results are obtained using non-sequential Zemax mode, the laser diode was simulated based on real ray-data file (5M rays) from OSRAM site.
+a) The ray traycing for sinle-lens collimator.
+b) The ray traycing for two-lens collimator.
+c) Spot diagram for sinle-lens collimator.
+d) Spot diagram for two-lens collimator.
+}
+\label{fig:spot_simulation}
+\end{figure}
+
+
+
+
+
+The ray tracing results obtained using ZEMAX are presented in (Fig. \ref{fig:spot_simulation}.a)) for the single-lens system and in (Fig. \ref{fig:spot_simulation}.b)) for the two-lens system.
+Beam spots obtained with ZEMAX are presented in (Fig. \ref{fig:spot_simulation}.c)) and (Fig. \ref{fig:spot_simulation}.d)) for the single-lens and two-lens systems, respectively. 
+As can be seen, in the case of a system of two lenses, the beam has a smaller divergence, as expected.
+But, a first design method seems to be more practical than the second one, since there is only
+one lens, and it might be easier to align a single-lens system than to align a two-lens system.
+However, the two-lens system has more degrees of freedom, and therefore, the optical
+parameters can be more widely adjusted.
+Also considering the size of it, it may get bulky and hard to use.
+
+Therefore, as a compact collimator a single-lens collimator used, whose length is 10 mm, and diameter 6 mm.
+This colimator provide beam angular size is 0.1$^\circ$ x 2.5$^\circ$.
+
+
+The simulation results verify the availability that the beam from the laser diode meets the requirements after optical emission from system.
+Simulation was also made in a sequential mode just in case (Fig. \ref{fig:ld_sequential}).
+
+
+\begin{figure}[h]
+\center{\includegraphics[width=1\linewidth]{ld_sequential}}
+\caption{Ray-traycing of single-lens collimator based on aspheric lens in sequential mode}
+\label{fig:ld_sequential} 
+\end{figure}
+
+
+As a result, the assembled compact laser collimator with an integrated OSRAM diode is shown in the Fig. \ref{fig:ld_assembled}.
+This colimator provide beam angular size is 0.1$^\circ$ x 2.5$^\circ$, by having length only 10 mm, and diameter 6 mm.
+
+\begin{figure}[h]
+\center{\includegraphics[width=0.2\linewidth]{ld}}
+\caption{Assembled compact laser collimator}
+\label{fig:ld_assembled} 
+\end{figure}
 
 
 \subsection{Laser driver}
@@ -230,13 +359,9 @@ laser diode meets the requirements after optical emission from system.
 \label{fig:laser_driver}
 \end{figure}
 \end{minipage}
-% \vfill
-% \begin{minipage}[h]{0.52\linewidth}
-% \center{\includegraphics[width=1\linewidth]{laser_output}} \\b)
-% \end{minipage}
-% \end{minipage}
 \hfill
 \begin{minipage}{0.4\textwidth}
+
 To operate Osram laser diode the laser driver is required. The simple one is shown in the upper part in Fig \ref{fig:laser_driver}.
 This is commercial one, provides 40A at repetition rate up to 100kHz(?).
 The lower part shows the screenshot of the 2Gsa/s oscilloscope, as can be seen, the pulse duration is of the order of 10 ns. The detector was SiPM which is described in the next section.

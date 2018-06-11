@@ -1,0 +1,15 @@
+1) Rover -> ISS gamma cheching
+2) about electrical schematic? can I attach them?
+3) about 2 mems submodule
+4) new lidar laser
+
+
+Can detect trash to check wheter it working or not.
+Stereo cameras shuld be really alignment (be strongly parallel)
+No magnetic field, not all parts are illuminated by sunlight.
+Stereo is not good sicnce changing of luminosity	
+Overview other types like stereo cam & star tracker	(can be used only for navigation)
+
+
+* OPticks -- aspheric lens
+

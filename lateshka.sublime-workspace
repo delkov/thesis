@@ -523,16 +523,8 @@
 			"file": "tex_files/main.tex",
 			"settings":
 			{
-				"buffer_size": 1038,
+				"buffer_size": 4777,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "%!TEX root = main.tex\n\n\\documentclass[a4paper,11pt]{article} %размер бумаги устанавливаем А4, шрифт 12пунк\n\\usepackage[T1]{fontenc} \n\\usepackage{mathptmx} % times new roman\n\\usepackage[utf8]{inputenc}%включаем свою кодировку: koi8-r или utf8 в UNIX, cp1251 \n\\usepackage[acronym]{glossaries}\n \n\\makeglossaries\n\\newglossaryentry{latex}\n{\n    name=latex,\n    description={Is a mark up language specially suited \n    for scientific documents}\n}\n\\newglossaryentry{maths}\n{\n    name=mathematics,\n    description={Mathematics is what mathematicians do}\n}\n\\newacronym{gcd}{GCD}{Greatest Common Divisor} \n\\newacronym{lcm}{LCM}{Least Common Multiple}\n\n\n\\usepackage[english]{babel}%используем русский и английский языки с переносами\n\\usepackage{amssymb,amsfonts,amsmath,mathtext,cite,enumerate,float} \n\\usepackage[unicode]{hyperref} % to make ref clickable\n\\usepackage[dvips]{graphicx} %хотим вставлять в диплом рисунки?\n\\graphicspath{{images/intro/}{images/software/}}%путь к рисункам\n\\usepackage{geometry} % Меняем поля страницы\n% \\addtolength{\\hoffset}{2.5mm} % shift all text\n\\geometry{left=2.5cm}% левое поле; 30 mm should be\n\\geometry{right=2.5cm}% правое поле; 30 mm should be\n\\geometry{top=2.5cm}% верхнее поле; 38 mm should be \n\\geometry{bottom=2.5cm}% нижнее поле; 38mm should be\n\n\\renewcommand{\\theenumi}{\\arabic{enumi}}% Меняем везде перечисления на цифра.цифра\n\\renewcommand{\\labelenumi}{\\arabic{enumi}}% Меняем везде перечисления на цифра.цифра\n\\renewcommand{\\theenumii}{.\\arabic{enumii}}% Меняем везде перфра.цифра\n\\renewcommand{\\labelenumii}{\\arabic{enumi}.\\arabic{enumii}.}% Мена цифра.цифра\n\\renewcommand{\\theenumiii}{.\\arabic{enumiii}}% Меняем везцифра.цифра\n\\renewcommand{\\labelenumiii}{\\arabic{enumi}.\\arabic{enumii}.\\arabic{enumiii}.}\n\\usepackage{cite} % clever references\n\n% Bibtex\n\\makeatletter\n\\bibliographystyle{unsrt} %Стиль библиографических ссылок БибТеХа - нумеровать в порядке упоминания\n\\renewcommand{\\@biblabel}[1]{#1.} %Заменяем библиографию с квадратных скобок на точку в списке литературы\n\\makeatother\n\n\\usepackage{setspace} % to manpulate spacing\n\\usepackage{indentfirst} %делать отступ в начале параграфа\n\\usepackage{enumerate}  %создание и автоматическая нумерация списков\n\\usepackage{tabularx}  %продвинутые таблицы\n\\usepackage{tocvsec2} % for settocdepth; diffrent level of depth\n\\settocdepth{subsection} % for all document; section, subsection & co\n\n\\makeatletter\n\\def\\@makechapterhead#1{%\n  \\vspace*{50\\p@}% <----------------- Space from top of page to Chapter #\n  {\\parindent \\z@ \\raggedright \\normalfont\n    \\ifnum \\c@secnumdepth >\\m@ne\n        \\huge\\bfseries \\thechapter.\\ % <-- Chapter # (without \"Chapter\")3\n    \\fi\n    \\interlinepenalty\\@M\n    #1\\par\\nobreak% <------------------ Chapter title\n    \\vskip 30\\p@% <------------------ Space between chapter title and first paragraph\n  }}\n\\makeatother\n\n% \\renewcommand{\\thechapter}{\\Roman{chapter}}\n\\usepackage[titletoc]{appendix}\n\n% \\usepackage{titlesec}  % to remove chapter name\n% \\titleformat{\\chapter}[display]\n%   {\\Huge\\bfseries}\n%   {}\n%   {0pt}\n%   {\\thechapter.\\ }\n\n% \\titleformat{name=\\chapter,numberless}[display]\n%   {\\Huge\\bfseries}\n%   {}\n%   {0pt}\n%   {}\n\n% \\setcounter{secnumdepth}{3} % to numerate subsection -- 3;\n\n\\begin{document}\n% \\input{title}% это титульный лист\n\n% \\begin{spacing}{1.2}\n% \\tableofcontents \n% % \\addcontentsline{toc}{chapter}{Appendix A} % since nu,ber is removed.\n% \\end{spacing} \n\n% \\listoffigures\n% \\listoftables\n\n% \\input{introduction}% это титульный лист\n% \\input{hardware}% это титульный лист\n% \\input{appendix_a}% это титульный лист\n\n\n\n\n\n% \\begin{spacing}{0.9}\n% \\bibliographystyle{plain}\n% \\bibliography{refs}\n% \\end{spacing}\n\n\n\n\n\n\n% \\clearpage\n\\printglossary[type=\\acronymtype]\n\\printglossary\n\n\n\n\\end{document}\n\n\n",
-			"settings":
-			{
-				"buffer_size": 3746,
 				"line_ending": "Unix"
 			}
 		},
@@ -540,9 +532,22 @@
 			"file": "tex_files/introduction.tex",
 			"settings":
 			{
-				"buffer_size": 4616,
+				"buffer_size": 5722,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Can detect trash to check wheter it working or not.\n\nStereo cameras shuld be really alignment (be strongly parallel)\nNo magnetic field, not all parts are illuminated by sunlight.\nStereo is not good sicnce changing of luminosity\t\nOverview other types like stereo cam & star tracker\t(can be used only for navigation)",
+			"file": "thesis_",
+			"file_size": 250,
+			"file_write_time": 131729155732153693,
+			"settings":
+			{
+				"buffer_size": 314,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "No magnetic field, not all parts are illuminated b"
 			}
 		},
 		{
@@ -671,11 +676,12 @@
 	],
 	"file_history":
 	[
+		"/home/delkov/Documents/THESIS/Lateshka/tex_files/title.tex",
+		"/home/delkov/Documents/THESIS/Lateshka/tex_files/refs.bib",
 		"/home/delkov/Documents/THESIS/test/test.ist",
 		"/home/delkov/Documents/THESIS/test/test.glo",
 		"/home/delkov/Documents/THESIS/test.ind",
 		"/home/delkov/Documents/THESIS/test.idx",
-		"/home/delkov/Documents/THESIS/Lateshka/tex_files/title.tex",
 		"/home/delkov/Documents/THESIS/Lateshka/tex_files/appendix_a.tex",
 		"/home/delkov/Documents/THESIS/Lateshka/tex_files/introduction.tex",
 		"/home/delkov/Documents/THESIS/Lateshka/tex_files/hardware.tex",
@@ -797,8 +803,7 @@
 		"/home/delkov/Documents/air/test_gz.py",
 		"/home/delkov/Documents/air/file_sender.sh",
 		"/home/delkov/.cache/.fr-Nu2Ft0/cutted_sbs.2018-05-13_14-14-36.txt",
-		"/home/delkov/.cache/.fr-FWBrf9/cutted_sbs.2018-05-13_14-14-06.txt",
-		"/home/delkov/.cache/.fr-QW4Kvd/cutted_sbs.2018-05-13_14-14-36.txt"
+		"/home/delkov/.cache/.fr-FWBrf9/cutted_sbs.2018-05-13_14-14-06.txt"
 	],
 	"find":
 	{
@@ -817,6 +822,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"epstopdf",
+			"ref",
+			"bibliography",
+			"begin",
+			"bibliographystyle",
 			"my_desire",
 			"fontsize",
 			"fontsiz",
@@ -838,7 +848,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -847,15 +857,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1038,
+						"buffer_size": 4777,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1004,
-								1004
+								4170,
+								4170
 							]
 						],
 						"settings":
@@ -863,36 +873,35 @@
 							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 403.0,
+						"translation.y": 1716.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "tex_files/introduction.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3746,
+						"buffer_size": 5722,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3746,
-								3746
+								875,
+								875
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 851.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -900,30 +909,31 @@
 				},
 				{
 					"buffer": 2,
-					"file": "tex_files/introduction.tex",
+					"file": "thesis_",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4616,
+						"buffer_size": 314,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2224,
-								2224
+								314,
+								314
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+							"auto_name": "No magnetic field, not all parts are illuminated b",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 117.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -939,8 +949,8 @@
 						"selection":
 						[
 							[
-								1199,
-								1199
+								429,
+								429
 							]
 						],
 						"settings":
@@ -948,7 +958,7 @@
 							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 585.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
