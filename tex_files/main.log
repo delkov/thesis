@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.6.4)  12 JUN 2018 01:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.6.4)  15 JUN 2018 13:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -923,6 +923,18 @@ Package glossaries Info: Writing glossary file main.glo on input line 111.
 Package glossaries Info: Writing glossary file main.acn on input line 111.
  (/home/delkov/Documents/THESIS/Lateshka/tex_files/main.aux
 
+LaTeX Warning: Label `fig:cubesat' multiply defined.
+
+
+LaTeX Warning: Label `eq:stereo_error' multiply defined.
+
+
+LaTeX Warning: Label `fig:cubesat' multiply defined.
+
+
+LaTeX Warning: Label `tbl:landing_datasheet' multiply defined.
+
+
 LaTeX Warning: Label `eq:beam_divergence' multiply defined.
 
 )
@@ -1113,21 +1125,117 @@ LaTeX Font Warning: Font shape `PU/ptm/m/n' undefined
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(/home/delkov/Documents/THESIS/Lateshka/tex_files/implementation.tex
+(/home/delkov/Documents/THESIS/Lateshka/tex_files/introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-(/home/delkov/Documents/THESIS/Lateshka/tex_files/laser_implementation.tex
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 3.
+<images/intro/cubesat_2.jpg, id=132, 265.99374pt x 190.7125pt>
+File: images/intro/cubesat_2.jpg Graphic file (type jpg)
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+<use images/intro/cubesat_2.jpg>
+Package pdftex.def Info: images/intro/cubesat_2.jpg used on input line 22.
+(pdftex.def)             Requested size: 182.09486pt x 130.5616pt.
+ [2
+
+ </home/delkov/Documents/THESIS/Lateshka/tex_files/images/intro/cubesat_2.jpg>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 82.
+
+<images/intro/docking.png, id=138, 614.295pt x 442.65375pt>
+File: images/intro/docking.png Graphic file (type png)
+
+<use images/intro/docking.png>
+Package pdftex.def Info: images/intro/docking.png used on input line 89.
+(pdftex.def)             Requested size: 204.85846pt x 147.61617pt.
+ [3] [4 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/intro/docking.
+png>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 136.
+
+<images/intro/jena.png, id=149, 381.425pt x 485.815pt>
+File: images/intro/jena.png Graphic file (type png)
+
+<use images/intro/jena.png>
+Package pdftex.def Info: images/intro/jena.png used on input line 158.
+(pdftex.def)             Requested size: 178.09831pt x 226.83566pt.
+File: images/intro/jena.png Graphic file (type png)
+ <use images/intro/jena.png>
+Package pdftex.def Info: images/intro/jena.png used on input line 158.
+(pdftex.def)             Requested size: 178.09831pt x 226.83566pt.
+ [5]
+<images/intro/liris.jpg, id=158, 423.5825pt x 469.755pt>
+File: images/intro/liris.jpg Graphic file (type jpg)
+
+<use images/intro/liris.jpg>
+Package pdftex.def Info: images/intro/liris.jpg used on input line 193.
+(pdftex.def)             Requested size: 178.09831pt x 197.51079pt.
+File: images/intro/liris.jpg Graphic file (type jpg)
+ <use images/intro/liris.jpg>
+Package pdftex.def Info: images/intro/liris.jpg used on input line 193.
+(pdftex.def)             Requested size: 178.09831pt x 197.51079pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/intro/tridar.png, id=159, 513.92pt x 424.58624pt>
+File: images/intro/tridar.png Graphic file (type png)
+
+<use images/intro/tridar.png>
+Package pdftex.def Info: images/intro/tridar.png used on input line 219.
+(pdftex.def)             Requested size: 182.09486pt x 150.44087pt.
+ [6 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/intro/jena.png>] [
+7 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/intro/liris.jpg> </h
+ome/delkov/Documents/THESIS/Lateshka/tex_files/images/intro/tridar.png>] <image
+s/intro/land.png, id=177, 835.12pt x 495.8525pt>
+File: images/intro/land.png Graphic file (type png)
+
+<use images/intro/land.png>
+Package pdftex.def Info: images/intro/land.png used on input line 240.
+(pdftex.def)             Requested size: 455.25243pt x 256.07431pt.
+
+<images/intro/asteroid_grab.png, id=179, 569.12625pt x 492.84125pt>
+File: images/intro/asteroid_grab.png Graphic file (type png)
+
+<use images/intro/asteroid_grab.png>
+Package pdftex.def Info: images/intro/asteroid_grab.png used on input line 256.
+
+(pdftex.def)             Requested size: 222.62701pt x 113.80981pt.
+File: images/intro/asteroid_grab.png Graphic file (type png)
+ <use images/intro/asteroid_grab.png>
+Package pdftex.def Info: images/intro/asteroid_grab.png used on input line 256.
+
+(pdftex.def)             Requested size: 222.62701pt x 113.80981pt.
+
+[8 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/intro/land.png (PNG
+ copy)> </home/delkov/Documents/THESIS/Lateshka/tex_files/images/intro/asteroid
+_grab.png>] [9] <images/intro/DEC.png, id=193, 544.0325pt x 539.01375pt>
+File: images/intro/DEC.png Graphic file (type png)
+
+<use images/intro/DEC.png>
+Package pdftex.def Info: images/intro/DEC.png used on input line 356.
+(pdftex.def)             Requested size: 182.09486pt x 180.4165pt.
+ [10]
+<images/intro/rover.png, id=204, 360.34625pt x 291.0875pt>
+File: images/intro/rover.png Graphic file (type png)
+
+<use images/intro/rover.png>
+Package pdftex.def Info: images/intro/rover.png used on input line 384.
+(pdftex.def)             Requested size: 222.62206pt x 179.83278pt.
+File: images/intro/rover.png Graphic file (type png)
+ <use images/intro/rover.png>
+Package pdftex.def Info: images/intro/rover.png used on input line 384.
+(pdftex.def)             Requested size: 222.62206pt x 179.83278pt.
+ [11 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/intro/DEC.png> </
+home/delkov/Documents/THESIS/Lateshka/tex_files/images/intro/rover.png>] [12] [
+13])
+(/home/delkov/Documents/THESIS/Lateshka/tex_files/implementation.tex [14]
+Chapter 2.
+(/home/delkov/Documents/THESIS/Lateshka/tex_files/laser_implementation.tex
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-[2
+[15
 
 ]
 Package epstopdf Info: Source file: <images/implementation/act_q.eps>
@@ -1139,15 +1247,15 @@ to.pdf>
 (epstopdf)                    size: 31986 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/implementation/act_
 q-eps-converted-to.pdf images/implementation/act_q.eps>
-(epstopdf)             \includegraphics on input line 40.
+(epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/implementation/act_q-eps-converted-to.pdf, id=94, 687.56876pt x 234.877
-5pt>
+<images/implementation/act_q-eps-converted-to.pdf, id=228, 687.56876pt x 234.87
+75pt>
 File: images/implementation/act_q-eps-converted-to.pdf Graphic file (type pdf)
  <use images/implementation/act_q-eps-converted-to.pdf>
 Package pdftex.def Info: images/implementation/act_q-eps-converted-to.pdf used 
-on input line 40.
+on input line 41.
 (pdftex.def)             Requested size: 236.72887pt x 92.46916pt.
 Package epstopdf Info: Source file: <images/implementation/pas_q.eps>
 (epstopdf)                    date: 2018-06-10 23:36:05
@@ -1158,19 +1266,19 @@ to.pdf>
 (epstopdf)                    size: 91591 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/implementation/pas_
 q-eps-converted-to.pdf images/implementation/pas_q.eps>
-(epstopdf)             \includegraphics on input line 44.
+(epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/implementation/pas_q-eps-converted-to.pdf, id=95, 1324.95pt x 456.70625
-pt>
+<images/implementation/pas_q-eps-converted-to.pdf, id=229, 1324.95pt x 456.7062
+5pt>
 File: images/implementation/pas_q-eps-converted-to.pdf Graphic file (type pdf)
  <use images/implementation/pas_q-eps-converted-to.pdf>
 Package pdftex.def Info: images/implementation/pas_q-eps-converted-to.pdf used 
-on input line 44.
+on input line 45.
 (pdftex.def)             Requested size: 204.8597pt x 86.77509pt.
- [3 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementation/act
-_q-eps-converted-to.pdf> </home/delkov/Documents/THESIS/Lateshka/tex_files/imag
-es/implementation/pas_q-eps-converted-to.pdf>]
+ [16 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementation/ac
+t_q-eps-converted-to.pdf> </home/delkov/Documents/THESIS/Lateshka/tex_files/ima
+ges/implementation/pas_q-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/implementation/micro.eps>
 (epstopdf)                    date: 2018-06-11 00:48:30
 (epstopdf)                    size: 4164823 bytes
@@ -1180,16 +1288,18 @@ to.pdf>
 (epstopdf)                    size: 84509 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/implementation/micr
 o-eps-converted-to.pdf images/implementation/micro.eps>
-(epstopdf)             \includegraphics on input line 64.
+(epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/implementation/micro-eps-converted-to.pdf, id=109, 1139.25626pt x 605.2
+<images/implementation/micro-eps-converted-to.pdf, id=245, 1139.25626pt x 605.2
 6125pt>
 File: images/implementation/micro-eps-converted-to.pdf Graphic file (type pdf)
  <use images/implementation/micro-eps-converted-to.pdf>
 Package pdftex.def Info: images/implementation/micro-eps-converted-to.pdf used 
-on input line 64.
+on input line 65.
 (pdftex.def)             Requested size: 250.38564pt x 133.01935pt.
+ [17 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementation/mi
+cro-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/implementation/osram.eps>
 (epstopdf)                    date: 2018-06-11 01:56:27
 (epstopdf)                    size: 585845 bytes
@@ -1199,15 +1309,15 @@ to.pdf>
 (epstopdf)                    size: 20797 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/implementation/osra
 m-eps-converted-to.pdf images/implementation/osram.eps>
-(epstopdf)             \includegraphics on input line 87.
+(epstopdf)             \includegraphics on input line 89.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/implementation/osram-eps-converted-to.pdf, id=111, 258.9675pt x 371.387
+<images/implementation/osram-eps-converted-to.pdf, id=255, 258.9675pt x 371.387
 5pt>
 File: images/implementation/osram-eps-converted-to.pdf Graphic file (type pdf)
  <use images/implementation/osram-eps-converted-to.pdf>
 Package pdftex.def Info: images/implementation/osram-eps-converted-to.pdf used 
-on input line 87.
+on input line 89.
 (pdftex.def)             Requested size: 100.17924pt x 143.66748pt.
 Package epstopdf Info: Source file: <images/implementation/osram.eps>
 (epstopdf)                    date: 2018-06-11 01:56:27
@@ -1218,16 +1328,14 @@ to.pdf>
 (epstopdf)                    size: 20797 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/implementation/osra
 m-eps-converted-to.pdf images/implementation/osram.eps>
-(epstopdf)             \includegraphics on input line 87.
+(epstopdf)             \includegraphics on input line 89.
 Package epstopdf Info: Output file is already uptodate.
 File: images/implementation/osram-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/implementation/osram-eps-converted-to.pdf>
 Package pdftex.def Info: images/implementation/osram-eps-converted-to.pdf used 
-on input line 87.
+on input line 89.
 (pdftex.def)             Requested size: 100.17924pt x 143.66748pt.
- [4 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementation/mic
-ro-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/implementation/laser_beam_3.eps>
 (epstopdf)                    date: 2018-06-11 14:39:19
 (epstopdf)                    size: 155905 bytes
@@ -1237,16 +1345,16 @@ verted-to.pdf>
 (epstopdf)                    size: 10712 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/implementation/lase
 r_beam_3-eps-converted-to.pdf images/implementation/laser_beam_3.eps>
-(epstopdf)             \includegraphics on input line 126.
+(epstopdf)             \includegraphics on input line 129.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/implementation/laser_beam_3-eps-converted-to.pdf, id=122, 353.32pt x 20
+<images/implementation/laser_beam_3-eps-converted-to.pdf, id=256, 353.32pt x 20
 8.78pt>
 File: images/implementation/laser_beam_3-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use images/implementation/laser_beam_3-eps-converted-to.pdf>
 Package pdftex.def Info: images/implementation/laser_beam_3-eps-converted-to.pd
-f used on input line 126.
+f used on input line 129.
 (pdftex.def)             Requested size: 201.22197pt x 89.62709pt.
 Package epstopdf Info: Source file: <images/implementation/laser_beam_4.eps>
 (epstopdf)                    date: 2018-06-11 14:39:23
@@ -1257,94 +1365,93 @@ verted-to.pdf>
 (epstopdf)                    size: 11540 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/implementation/lase
 r_beam_4-eps-converted-to.pdf images/implementation/laser_beam_4.eps>
-(epstopdf)             \includegraphics on input line 130.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/implementation/laser_beam_4-eps-converted-to.pdf, id=123, 349.305pt x 2
+<images/implementation/laser_beam_4-eps-converted-to.pdf, id=257, 349.305pt x 2
 08.78pt>
 File: images/implementation/laser_beam_4-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use images/implementation/laser_beam_4-eps-converted-to.pdf>
 Package pdftex.def Info: images/implementation/laser_beam_4-eps-converted-to.pd
-f used on input line 130.
+f used on input line 133.
 (pdftex.def)             Requested size: 204.86226pt x 92.47194pt.
- [5 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementation/osr
-am-eps-converted-to.pdf> </home/delkov/Documents/THESIS/Lateshka/tex_files/imag
-es/implementation/laser_beam_3-eps-converted-to.pdf> </home/delkov/Documents/TH
-ESIS/Lateshka/tex_files/images/implementation/laser_beam_4-eps-converted-to.pdf
->]
-<images/implementation/lens.png, id=141, 569.12625pt x 359.3425pt>
+ [18 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementation/os
+ram-eps-converted-to.pdf>] [19 </home/delkov/Documents/THESIS/Lateshka/tex_file
+s/images/implementation/laser_beam_3-eps-converted-to.pdf> </home/delkov/Docume
+nts/THESIS/Lateshka/tex_files/images/implementation/laser_beam_4-eps-converted-
+to.pdf>]
+<images/implementation/lens.png, id=283, 569.12625pt x 359.3425pt>
 File: images/implementation/lens.png Graphic file (type png)
 
 <use images/implementation/lens.png>
-Package pdftex.def Info: images/implementation/lens.png used on input line 181.
+Package pdftex.def Info: images/implementation/lens.png used on input line 184.
 
 (pdftex.def)             Requested size: 284.07393pt x 179.36923pt.
 
-Overfull \hbox (47.34505pt too wide) in paragraph at lines 181--182
+Overfull \hbox (47.34505pt too wide) in paragraph at lines 184--185
  [] 
  []
 
-[6] <images/implementation/ld_lens.jpg, id=153, 169.38281pt x 131.74219pt>
+[20 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementation/len
+s.png>] <images/implementation/ld_lens.jpg, id=298, 169.38281pt x 131.74219pt>
 File: images/implementation/ld_lens.jpg Graphic file (type jpg)
 
 <use images/implementation/ld_lens.jpg>
 Package pdftex.def Info: images/implementation/ld_lens.jpg used on input line 2
-25.
+28.
 (pdftex.def)             Requested size: 144.70297pt x 112.55026pt.
 File: images/implementation/ld_lens.jpg Graphic file (type jpg)
 
 <use images/implementation/ld_lens.jpg>
 Package pdftex.def Info: images/implementation/ld_lens.jpg used on input line 2
-25.
+28.
 (pdftex.def)             Requested size: 144.70297pt x 112.55026pt.
 
-Overfull \hbox (41.14992pt too wide) detected at line 241
+Overfull \hbox (41.14992pt too wide) detected at line 244
  [] 
  []
 
-[7 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementation/lens
-.png>]
-<images/implementation/cylinder_lens.jpg, id=165, 169.38281pt x 131.74219pt>
+<images/implementation/cylinder_lens.jpg, id=300, 169.38281pt x 131.74219pt>
 File: images/implementation/cylinder_lens.jpg Graphic file (type jpg)
 
 <use images/implementation/cylinder_lens.jpg>
 Package pdftex.def Info: images/implementation/cylinder_lens.jpg used on input 
-line 257.
+line 260.
 (pdftex.def)             Requested size: 144.70297pt x 112.55026pt.
 File: images/implementation/cylinder_lens.jpg Graphic file (type jpg)
 
 <use images/implementation/cylinder_lens.jpg>
 Package pdftex.def Info: images/implementation/cylinder_lens.jpg used on input 
-line 257.
+line 260.
 (pdftex.def)             Requested size: 144.70297pt x 112.55026pt.
 
-Overfull \hbox (39.32352pt too wide) detected at line 273
+Overfull \hbox (39.32352pt too wide) detected at line 276
  [] 
  []
 
-<images/implementation/zem_1_lens.png, id=166, 1257.19687pt x 469.00218pt>
+<images/implementation/zem_1_lens.png, id=301, 1257.19687pt x 469.00218pt>
 File: images/implementation/zem_1_lens.png Graphic file (type png)
 
 <use images/implementation/zem_1_lens.png>
 Package pdftex.def Info: images/implementation/zem_1_lens.png used on input lin
-e 286.
+e 290.
 (pdftex.def)             Requested size: 218.49727pt x 92.46768pt.
 
-<images/implementation/zem_2_lens.png, id=168, 1322.69156pt x 544.28343pt>
+<images/implementation/zem_2_lens.png, id=303, 1322.69156pt x 544.28343pt>
 File: images/implementation/zem_2_lens.png Graphic file (type png)
 
 <use images/implementation/zem_2_lens.png>
 Package pdftex.def Info: images/implementation/zem_2_lens.png used on input lin
-e 290.
+e 294.
 (pdftex.def)             Requested size: 204.8536pt x 92.46881pt.
 
-<images/implementation/spot_1_lens.png, id=169, 546.04pt x 408.52625pt>
+<images/implementation/spot_1_lens.png, id=304, 546.04pt x 408.52625pt>
 File: images/implementation/spot_1_lens.png Graphic file (type png)
 
 <use images/implementation/spot_1_lens.png>
 Package pdftex.def Info: images/implementation/spot_1_lens.png used on input li
-ne 294.
+ne 298.
 (pdftex.def)             Requested size: 225.34425pt x 170.71962pt.
 Package epstopdf Info: Source file: <images/implementation/spot_2_lens.eps>
 (epstopdf)                    date: 2018-06-11 23:45:22
@@ -1355,41 +1462,41 @@ erted-to.pdf>
 (epstopdf)                    size: 76609 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/implementation/spot
 _2_lens-eps-converted-to.pdf images/implementation/spot_2_lens.eps>
-(epstopdf)             \includegraphics on input line 298.
+(epstopdf)             \includegraphics on input line 302.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/implementation/spot_2_lens-eps-converted-to.pdf, id=170, 546.04pt x 408
+<images/implementation/spot_2_lens-eps-converted-to.pdf, id=305, 546.04pt x 408
 .52625pt>
 File: images/implementation/spot_2_lens-eps-converted-to.pdf Graphic file (type
  pdf)
  <use images/implementation/spot_2_lens-eps-converted-to.pdf>
 Package pdftex.def Info: images/implementation/spot_2_lens-eps-converted-to.pdf
- used on input line 298.
+ used on input line 302.
 (pdftex.def)             Requested size: 225.34425pt x 170.71962pt.
- [8 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementation/ld_
-lens.jpg> </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementati
-on/cylinder_lens.jpg>]
-<images/implementation/ld_sequential.png, id=181, 974.64125pt x 304.13625pt>
+ [21 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementation/ld
+_lens.jpg> </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementat
+ion/cylinder_lens.jpg>]
+<images/implementation/ld_sequential.png, id=319, 974.64125pt x 304.13625pt>
 File: images/implementation/ld_sequential.png Graphic file (type png)
 
 <use images/implementation/ld_sequential.png>
 Package pdftex.def Info: images/implementation/ld_sequential.png used on input 
-line 332.
+line 335.
 (pdftex.def)             Requested size: 455.24411pt x 142.05766pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementation/zem_
-1_lens.png> </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementa
-tion/zem_2_lens.png> </home/delkov/Documents/THESIS/Lateshka/tex_files/images/i
-mplementation/spot_1_lens.png> </home/delkov/Documents/THESIS/Lateshka/tex_file
-s/images/implementation/spot_2_lens-eps-converted-to.pdf>]
-<images/implementation/ld.png, id=194, 323.2075pt x 258.9675pt>
+[22 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementation/zem
+_1_lens.png> </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implement
+ation/zem_2_lens.png> </home/delkov/Documents/THESIS/Lateshka/tex_files/images/
+implementation/spot_1_lens.png> </home/delkov/Documents/THESIS/Lateshka/tex_fil
+es/images/implementation/spot_2_lens-eps-converted-to.pdf>]
+<images/implementation/ld.png, id=332, 323.2075pt x 258.9675pt>
 File: images/implementation/ld.png Graphic file (type png)
 
 <use images/implementation/ld.png>
-Package pdftex.def Info: images/implementation/ld.png used on input line 342.
+Package pdftex.def Info: images/implementation/ld.png used on input line 345.
 (pdftex.def)             Requested size: 91.04742pt x 72.949pt.
 Package epstopdf Info: Source file: <images/implementation/laser_driver.eps>
 (epstopdf)                    date: 2018-06-11 02:32:30
@@ -1400,17 +1507,63 @@ verted-to.pdf>
 (epstopdf)                    size: 65228 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/implementation/lase
 r_driver-eps-converted-to.pdf images/implementation/laser_driver.eps>
-(epstopdf)             \includegraphics on input line 354.
+(epstopdf)             \includegraphics on input line 374.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/implementation/laser_driver-eps-converted-to.pdf, id=195, 682.55pt x 49
+<images/implementation/laser_driver-eps-converted-to.pdf, id=334, 682.55pt x 49
 5.8525pt>
 File: images/implementation/laser_driver-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use images/implementation/laser_driver-eps-converted-to.pdf>
 Package pdftex.def Info: images/implementation/laser_driver-eps-converted-to.pd
-f used on input line 354.
-(pdftex.def)             Requested size: 227.62206pt x 165.35689pt.
+f used on input line 374.
+(pdftex.def)             Requested size: 182.09486pt x 132.2855pt.
+
+[23 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementation/ld_
+sequential.png> </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implem
+entation/ld.png> </home/delkov/Documents/THESIS/Lateshka/tex_files/images/imple
+mentation/laser_driver-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <images/implementation/our_laser_driver.eps
+>
+(epstopdf)                    date: 2018-06-12 02:22:44
+(epstopdf)                    size: 5232002 bytes
+(epstopdf)             Output file: <images/implementation/our_laser_driver-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 02:23:33
+(epstopdf)                    size: 333927 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/implementation/our_
+laser_driver-eps-converted-to.pdf images/implementation/our_laser_driver.eps>
+(epstopdf)             \includegraphics on input line 401.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/implementation/our_laser_driver-eps-converted-to.pdf, id=349, 657.45625
+pt x 1317.92375pt>
+File: images/implementation/our_laser_driver-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use images/implementation/our_laser_driver-eps-converted-to.pdf>
+Package pdftex.def Info: images/implementation/our_laser_driver-eps-converted-t
+o.pdf used on input line 401.
+(pdftex.def)             Requested size: 100.17924pt x 200.81717pt.
+Package epstopdf Info: Source file: <images/implementation/our_laser_driver.eps
+>
+(epstopdf)                    date: 2018-06-12 02:22:44
+(epstopdf)                    size: 5232002 bytes
+(epstopdf)             Output file: <images/implementation/our_laser_driver-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2018-06-12 02:23:33
+(epstopdf)                    size: 333927 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/implementation/our_
+laser_driver-eps-converted-to.pdf images/implementation/our_laser_driver.eps>
+(epstopdf)             \includegraphics on input line 401.
+Package epstopdf Info: Output file is already uptodate.
+File: images/implementation/our_laser_driver-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use images/implementation/our_laser_driver-eps-converted-to.pdf>
+Package pdftex.def Info: images/implementation/our_laser_driver-eps-converted-t
+o.pdf used on input line 401.
+(pdftex.def)             Requested size: 100.17924pt x 200.81717pt.
 Package epstopdf Info: Source file: <images/implementation/laser_output.eps>
 (epstopdf)                    date: 2018-06-11 02:50:07
 (epstopdf)                    size: 7105253 bytes
@@ -1420,37 +1573,52 @@ verted-to.pdf>
 (epstopdf)                    size: 132889 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/implementation/lase
 r_output-eps-converted-to.pdf images/implementation/laser_output.eps>
-(epstopdf)             \includegraphics on input line 355.
+(epstopdf)             \includegraphics on input line 407.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/implementation/laser_output-eps-converted-to.pdf, id=196, 1373.13pt x 8
+<images/implementation/laser_output-eps-converted-to.pdf, id=350, 1373.13pt x 8
 57.2025pt>
 File: images/implementation/laser_output-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use images/implementation/laser_output-eps-converted-to.pdf>
 Package pdftex.def Info: images/implementation/laser_output-eps-converted-to.pd
-f used on input line 355.
-(pdftex.def)             Requested size: 227.62206pt x 142.0863pt.
+f used on input line 407.
+(pdftex.def)             Requested size: 222.61765pt x 170.71806pt.
+Package epstopdf Info: Source file: <images/implementation/laser_output.eps>
+(epstopdf)                    date: 2018-06-11 02:50:07
+(epstopdf)                    size: 7105253 bytes
+(epstopdf)             Output file: <images/implementation/laser_output-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2018-06-11 14:35:48
+(epstopdf)                    size: 132889 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/implementation/lase
+r_output-eps-converted-to.pdf images/implementation/laser_output.eps>
+(epstopdf)             \includegraphics on input line 407.
+Package epstopdf Info: Output file is already uptodate.
+File: images/implementation/laser_output-eps-converted-to.pdf Graphic file (typ
+e pdf)
+
+<use images/implementation/laser_output-eps-converted-to.pdf>
+Package pdftex.def Info: images/implementation/laser_output-eps-converted-to.pd
+f used on input line 407.
+(pdftex.def)             Requested size: 222.61765pt x 170.71806pt.
 )
-(/home/delkov/Documents/THESIS/Lateshka/tex_files/mems_implementation.tex
-[10 </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementation/ld_
-sequential.png> </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implem
-entation/ld.png>])
+(/home/delkov/Documents/THESIS/Lateshka/tex_files/mems_implementation.tex)
 (/home/delkov/Documents/THESIS/Lateshka/tex_files/sipm_implementation.tex))
-(/home/delkov/Documents/THESIS/Lateshka/tex_files/main.bbl [11 </home/delkov/Do
-cuments/THESIS/Lateshka/tex_files/images/implementation/laser_driver-eps-conver
-ted-to.pdf> </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implementa
-tion/laser_output-eps-converted-to.pdf>] [12])
-(/home/delkov/Documents/THESIS/Lateshka/tex_files/appendix_a.tex [13
+(/home/delkov/Documents/THESIS/Lateshka/tex_files/main.bbl [24 </home/delkov/Do
+cuments/THESIS/Lateshka/tex_files/images/implementation/our_laser_driver-eps-co
+nverted-to.pdf> </home/delkov/Documents/THESIS/Lateshka/tex_files/images/implem
+entation/laser_output-eps-converted-to.pdf>] [25])
+(/home/delkov/Documents/THESIS/Lateshka/tex_files/appendix_a.tex [26
 
 ]
 Appendix A.
-[14
+[27
 
 ]
 Appendix B.
 
-LaTeX Warning: Reference `fig:skku' on page 15 undefined on input line 37.
+LaTeX Warning: Reference `fig:skku' on page 28 undefined on input line 37.
 
 )
 
@@ -1459,7 +1627,7 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
-[15
+[28
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
@@ -1467,7 +1635,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EFB8000E22A9659CC2FCD2126DE80912;1866.
+(rerunfilecheck)             Checksum: 72867BE6633C2DE229E3FF4D319D650E;3513.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1480,13 +1648,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16781 strings out of 493029
- 243607 string characters out of 6136235
- 386257 words of memory out of 5000000
- 19931 multiletter control sequences out of 15000+600000
+ 16900 strings out of 493029
+ 246088 string characters out of 6136235
+ 388322 words of memory out of 5000000
+ 19993 multiletter control sequences out of 15000+600000
  49286 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,22n,92p,1917b,687s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,22n,92p,1917b,689s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
@@ -1494,11 +1662,11 @@ fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/symbol/usyr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /home/delkov/Documents/THESIS/Lateshka/tex_files/main.pdf (15
- pages, 1019883 bytes).
+Output written on /home/delkov/Documents/THESIS/Lateshka/tex_files/main.pdf (28
+ pages, 2777348 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 431 PDF objects out of 1000 (max. 8388607)
+ 349 compressed objects within 4 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 

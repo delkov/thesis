@@ -1,6 +1,7 @@
 \section{Laser module}
 
 \subsection{Laser}
+\subsubsection{The requirements}
 The laser plays one of the key role in the whole system.
 Strict requirements are imposed on it, starting from the pulse energy, ending with the generation stability. 
 The maximum distance at which we can detect an object directly depends on the pulse energy, in our case the energy should be more than 1uJ to reach 200m distance.
@@ -30,7 +31,7 @@ Dimension: & \textbf{$\leq$ 3 cm$^3$} \\  \hline
 \end{center}
 \end{table}
 
-
+\subsubsection{Theoretical background}
 Nowadays, there are a lot of laser solutions: Solid-state lasers, Semiconductor lasers, Fiber lasers, Gas lasers, but many of them do not meet all our requirements.
 Solid-state lasers can be used in a pulsed mode with Q-switching (active or passive) technique and also in Mode-locking mode. In the case of the Mode-locking mode, the repetition frequency can reach many MHz, whereas the pulse duration is much lower: typically between 30 fs and 30 ps. Despite the complexity of creation such laser, the energy of the pulse, is extremely small and can not be used for our purposes.
 
@@ -69,6 +70,7 @@ Due to the size of laser system, the best solution is passive Q-switched microch
 
 Q-switched microchip lasers also allow the generation of unusually short pulses with durations below 1 ns, in extreme cases even below 100 ps. This holds particularly for passive Q switching with a SESAM [2], but it is also possible to use a saturable absorber crystal e.g. of Cr:YAG or some Cr-doped ceramics [1].
 
+\subsubsection{The laser choice}
 Eventually according to numerical simulation [1,2] the minimum pump power for high-repetition laser system, which is satistied our requrements is quite big > 6-8W this is just for start trigger lasing at 10kHz ( for Nd:YVO4/Cr4+ with best transmission parameters). This is because, optical-to-optical efficiencies – typically of the order of 5-20\%.
 At the same time, electrical-to-optical efficiencies sometimes even above 60\%.
 
@@ -113,6 +115,7 @@ Operating temperature: & \textbf{-40 .. 100 }$\pmb{{^\circ}}$\textbf{C} \\  \hli
 
 %%%%%%%%%%%% LASER COLLIMATOR SUB-SECTION %%%%%%%%%%%
 \subsection{Laser collimator}
+\subsubsection{Analytical calculations}
 
 Radiation characteristic of laser diode features carries due to its small size, light
 quality, low threshold, low cost, these properties the laser diode play an important role in the information time, especially in the field of communication LIDAR.
@@ -209,10 +212,10 @@ Important to note, that even a well-collimated beam has a non-vanishing divergen
 \end{equation}
 
 % \newpage
-
+\subsubsection{The optical system choice}
 According to formula \ref{eq:beam_size}, our focal length should be $\sim$ 6.5 mm.
-The nearest suitable aspherical lens has focal length 6.2 mm (Fig. \ref{fig:ld_lens}).
-These laser molded aspheric lense fulfilled all our the needs. By utilizing a single aspheric lens, the need for a multi-lens system is eliminated, allowing for a more compact and robust design. This aspheric lens is anti-reflection coated for optimum transmission in the 600 - 1050 nm wavelength range. The anti-reflection coating provides <0.4\% average reflection over the entire design wavelength range.
+The first way is just using nearest suitable aspherical lens, which has focal length 6.2 mm (Fig. \ref{fig:ld_lens}).
+These laser molded aspheric lense fulfilled all our the needs. Also, this aspheric lens is anti-reflection coated for optimum transmission in the 600 - 1050 nm wavelength range. The anti-reflection coating provides <0.4\% average reflection over the entire design wavelength range. By utilizing a single aspheric lens, the need for a multi-lens system is eliminated, allowing for a more compact and robust design. 
 
 
 \begin{figure}
@@ -275,6 +278,7 @@ Coating: & \textbf{ BBAR (600 - 1050 nm)} & \textbf{12 mm} \\  \hline
 
 
 
+\subsubsection{ZEMAX simulation}
 
 Once the analytical calculations are completed, and the system variables are determined, the ZEMAX optical design program is used to simulate a specific example.
 ZEMAX is a design software containing features and tools to design, optimize, and analyze any optical system.
@@ -319,9 +323,8 @@ one lens, and it might be easier to align a single-lens system than to align a t
 However, the two-lens system has more degrees of freedom, and therefore, the optical
 parameters can be more widely adjusted.
 Also considering the size of it, it may get bulky and hard to use.
-
 Therefore, as a compact collimator a single-lens collimator used, whose length is 10 mm, and diameter 6 mm.
-This colimator provide beam angular size is 0.1$^\circ$ x 2.5$^\circ$.
+
 
 
 The simulation results verify the availability that the beam from the laser diode meets the requirements after optical emission from system.
@@ -334,7 +337,7 @@ Simulation was also made in a sequential mode just in case (Fig. \ref{fig:ld_seq
 \label{fig:ld_sequential} 
 \end{figure}
 
-
+\subsubsection{Assembled laser collimator}
 As a result, the assembled compact laser collimator with an integrated OSRAM diode is shown in the Fig. \ref{fig:ld_assembled}.
 This colimator provide beam angular size is 0.1$^\circ$ x 2.5$^\circ$, by having length only 10 mm, and diameter 6 mm.
 
@@ -345,34 +348,73 @@ This colimator provide beam angular size is 0.1$^\circ$ x 2.5$^\circ$, by having
 \end{figure}
 
 
+
+%%%% LASER DRIVER SECTION %%%%
 \subsection{Laser driver}
+% \noindent
 
-\noindent\begin{minipage}{0.5\textwidth}
+% \vfill
+% \begin{minipage}{1\textwidth}
+% \center{
+% \includegraphics[width=1\linewidth]{our_laser_driver}
+% }
+% \caption{Assembled compact laser collimator}
+% \label{fig:ld_assembled} 
+% \end{minipage}
+% \hfill
+% \begin{minipage}{0.4\textwidth}
+
+To operate Osram laser diode the laser driver is required.
+The LDP-AV 40-70 is the smallest available source for nanosecond pulses (Fig \ref{fig:laser_driver}).
+It provides 40A with fixed pulse duration of 5 ns at repetition rate up to 100kHz.
+
+% \begin{minipage}{1\textwidth}
 \begin{figure}[H]
-% \begin{minipage}[h]{0.52\linewidth}
 \center{
-\includegraphics[width=1\linewidth]{laser_driver}
-\includegraphics[width=1\linewidth]{laser_output}
-} 
-\vspace{-3mm}
-\caption{Upper fig is laser driver with attached Osram diode. Bottom one is output of detector catched by 2GSa/s oscilloscope after laser shoot. }
+\includegraphics[width=0.4\linewidth]{laser_driver}
+\caption{Commercial laser driver with attached Osram diode.}
 \label{fig:laser_driver}
+}
 \end{figure}
-\end{minipage}
-\hfill
-\begin{minipage}{0.4\textwidth}
 
-To operate Osram laser diode the laser driver is required. The simple one is shown in the upper part in Fig \ref{fig:laser_driver}.
-This is commercial one, provides 40A at repetition rate up to 100kHz(?).
-The lower part shows the screenshot of the 2Gsa/s oscilloscope, as can be seen, the pulse duration is of the order of 10 ns. The detector was SiPM which is described in the next section.
+ % Bottom one is output of detector catched by 2GSa/s oscilloscope after laser shoot. 
 
-Our team made an analog of this laser driver, smaller in size with the same characteristics, as well as with a combined detector (SiPM) part. 
-
-\subsection{Final}
-Finally we got laser system with the following params:
-*table*
-
+% \hfill
+% \includegraphics[width=0.45\linewidth]{laser_output}
+% } 
+% \vspace{-3mm}
+% \end{minipage}
 
 % \end{minipage}
-\end{minipage}
+
+Our team made an analog of this laser driver, smaller in size with the same characteristics. The device optimized for size and functionality (Fig. \ref{fig:our_laser_driver}).
+
+Figure \ref{fig:laser_output} shows the screenshot of the 2Gsa/s oscilloscope, as can be seen, the pulse duration is of the order of 10 ns. The detector was SiPM which is described in the next section.
+
+\begin{figure}
+\begin{floatrow}
+\ffigbox{
+\center{\includegraphics[width=0.45\linewidth]{our_laser_driver}} 
+}{
+  \caption{Our laser driver.}%
+\label{fig:our_laser_driver} % or change caption location
+}
+\ffigbox{
+\center{\includegraphics[height=6cm, width=1\linewidth]{laser_output}} 
+}{
+  \caption{Output of detector catched by 2GSa/s oscilloscope after laser shoot.}%
+\label{fig:laser_output} % or change caption location
+}
+\end{floatrow}
+\end{figure}
+
+
+
+
+
+
+\subsection{Final}
+
+Finally we got laser system with the following params:
+*table*
 

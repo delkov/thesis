@@ -1,113 +1,514 @@
 \chapter{Introduction}
-% \chapter[Title with Larger Font Size]{\fontsize{18}{5}\selectfont{Title with Larger Font Size}}
 
-\section{General about lidar \& why it's important for rover navigation \& terrain mapping}
-\section{About methods of navigation (probably chapter Related work)} 
-\section{About application more deeply (probably chapter Related work)}
-\section{Analogues \& why we are better}
-\section{About ISS-gamma mission(can be checked in space) \& Lunar mission in the future in case of ISS-gamma success (about Lunar environment)}
-When using the  and \\chapter tags in LaTeX you will typically end up with parts and chapters that say “part” and “chapter” before the name you have written. Putting these lines in your preamble will remove this:
+%% About lidar \& why it's important for science %% 
+%% about observation % new era %%
 
-\chapter{Related Work (skipped?)}
+% Space telescopes, not affected by the blurring and absorption of Earth’s atmosphere, have been key drivers of progress for modern astronomy. While space observations are carried out over the whole electromagnetic spectrum, imaging at infrared wavelengths, which is critically needed for a wide range of investigations, is one of the areas where the gain compared to ground is maximal. Orbiting telescopes, large or small, have been so far confined to complex missions run by government agencies. However, thanks to dramatic technological improvements, CubeSats represent a new opportunity to break the price and performance curve of traditional space missions, while retaining attractiveness as cutting-edge research platforms. This presentation will describe the SkyHopper project, the first CubeSat with a near-infrared telescope. 
 
-\chapter{Implementation}
-\section{Lidar principle \& schematic}
-\section{Calculating the SNR for the Moon?}
-\section{Submodule components}
-\subsection{Laser module}
-\subsubsection{Laser}
-\subsubsection{Laser driver}
-\subsubsection{Laser collimator}
+% On April 28, 2016, a new pathfinding instrument – the Ultra-Fast Flash Observatory (UFFO)
+% Pathfinder – was launched onboard the Lomonosov spacecraft from the new Russian Vostochny
+% Cosmodrome. 
 
-\subsection{MEMS, our driver + some params from datasheets}
-\subsubsection{photo of trajectories}
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
-\subsection{SIPM, + collimator}
-\section{Control \& Power}
-\section{Submodule as result}
+%%%%%%%%%%%%%%%%%%%%%%% 
+We are coming to new era of satellites technologies.
+Artificial satellites come in a variety of sizes ranging from one you can hold in your hand to the size of a school bus. Their dimension and costs are mostly determined by the complexity and type of their instruments (commonly known as payloads). In recent years, thanks to the miniaturization of space technologies, satellites have become smaller for a number of reasons, the first being the cost associated with assembly and launch. % chane these sent.
+% A CubeSat (CS) is a type of miniaturized satellite for space research, these nanosatellites typically weigh between 1 and 10 kilograms and follow the popular 'CubeSat' standard,
+% which defines the outer dimensions of the satellite within multiple cubic units of 10x10x10 cm.
 
 
-\chapter{Hardware implemetation}
-I did both 
-\section{CPU programming}
-\section{FPGA programming}
+\begin{minipage}[h]{0.4\linewidth}
+\begin{figure}[H]
 
-\chapter{Software implemetation}
-\section{2D software}
-\section{3D software (point cloud)}
+\center{\includegraphics[width=1\linewidth]{cubesat_2}} a) \\
+\caption{An example of 1U CubeSat}
+\label{fig:cubesat}
+\end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.5\linewidth}
+
+A CubeSat (CS) is a type of miniaturized satellite for space research, these nanosatellites typically weigh between 1 and 10 kilograms and follow the popular 'CubeSat' standard,
+which defines the outer dimensions of the satellite within multiple cubic units of 10x10x10 cm.
+
+
+\end{minipage}
+\vspace{1cm}
 
 
 
-
-\chapter{Results}
-\section{indoor test}
-\section{car test}
-\section{temperature testing}
-\chapter{Conclusion: what we wanted, what's the result, and what's the next}
+% a) Laser diode end-pumped activelly Q-switched laser utilizing a langasite (LGS) crystal as an electro-optic Q-switch.
+% b) High repetition rate laser-diode end-pumped passively Q-Switched Nd:LuVO4/Cr4+:YAG
+% }
 
 
+Utilization of a simplified infrastructure enables a low-cost platform to test the space readiness of new hardware without an exorbitant amount of prohibitive design, thus
+CSs can help test new instruments or materials and validate their readiness to be integrated into a more complex space mission.
+% It's pretty easy to organise satellites constellation.
+The modularity of the CS allows to replace the damaged equipment thereby increasing the duration of the mission.
+Moreover, the changing the configuration of the modules or adding new ones lead to changing physical characteristics of the system,
+such as increasing FOV by adding extra-telescope or new wavelength band X-ray/UV/IR, all of these manipulations becomes available right in space.
+It becomes really easy to organise satellites constellations to enhancing sky coverage.
+In addition, there is no need thinking about space debris: cubesats burn up in the atmosphere upon re-entry.
+
+One of the areas where CubeSats offer promise is a new type of GRB space observation instrument that is capable to pick up Gamma Ray Bursts (GRBs) in the hard X-ray to gamma band.
+GRBs are broadband immense power electromagnetic flashes in space, releases energy, which is typically around $10^{44}$ J.
+Observations of GRBs [6,7] play a significant role in understanding these recent discoveries [5,8].
+Despite progress in investigations of GRB has been made, especially in the last decade, which culminated in the Fermi and SWIFT missions, up to the moment, some important parameters of GRB, like their prompt emission, still have not been studied well enough. 
+The first direct detections of GWs [1] has brought astronomy into a new era of discovery.
+The recent coincident detection of a short GRB (by Fermi and other multiwavelength partners) and a Gravitational Wave (GW) trigger has provided concrete proof that at least some short GRBs are produced by binary neutron star mergers [2,3,4,5]. The search for electromagnetic counterparts to GW sources is now more important than ever before.
+CS are very useful to detect astrophysical counterparts to GW signals as well as other gamma-ray transients,
+since there are oportunity to enhancing sky coverage for gamma-ray transients that is especially important since GW events can happen anywhere and anytime.
+
+One such project is called BurstCube [11], which will provide localizations which will assist wide-field follow-up observers in afterglow detection and redshift measurement.
+BurstCube will detect GRBs (long and short) from the entire unocculted sky providing broadband spectra for bursts detected elsewhere, rough localizations for follow-up, and accurately timed light curves.
+
+This thesis is aimed at the development of a common sensor
+that with a modest design adjustment can meet the needs of both landing and proximity operation Rendezvous and docking applications and also terrain mapping and navigation for a planetary exploration rover.
+
+
+% There are a lot of other applications such as: Detection and rendezvous between spacecrafts and asteroids \& asteroid sample return and redirect missions; Space debris removal
+
+% \item Optical metrology for spacecraft formation flying
+% \item Examination of spacecrafts external surfaces for integrity verification and damage detection, monitoring of large de/ployable surfaces like antennas, solar panels or airbags
+% \item Morphological characterization of asteroids
+% \end{itemize}
+
+% CubeSats are even being used for interplanetary missions: NASA's Mars Cube One (MarCO) will embark on a mission to Mars in May 2018. 
+
+% A_12
+% Current optical systems operate at much shorter distances, range towards the target, but they can be easily improved later.
+
+%% more deeply about docking %%
+\section{Docking \& Rendezvous for CubeSets}
+% A_12
+% Servicing satellites on-orbit requires ability to rendezvous and dock by an unmanned spacecraft with no or minimum human input.
+
+\begin{minipage}[H]{0.45\linewidth}
+\begin{figure}[H]
+
+\center{\includegraphics[width=1\linewidth]{docking}}
+\caption{Orion vehicle docking with an Earth Departure Stage }
+\label{fig:docking}
+\end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.48\linewidth}
+
+There are also number of space operations that require the ability to rendezvous and dock by an unmanned spacecraft including:
+servicing satellites on-orbit; assembly of large space structures in Earth orbit; and transfer of Martian soil samples from a lander to a return spacecraft on the Mars orbit, as part of a sample return mission and even space debris removal.
+\end{minipage}
+\vspace{1cm}
+
+
+% There are also number of space operations that require the ability to rendezvous and dock by an unmanned spacecraft including:
+% servicing satellites on-orbit; assembly of large space structures in Earth orbit; and transfer of Martian soil samples from a lander to a return spacecraft on the Mars orbit, as part of a sample return mission and even space debris removal.
+Novel imaging sensors and computer vision technologies are required to detect a target spacecraft at a distance of several kilometers in an arbitrary orientation and to guide the approaching spacecraft to contact with the docking port. 
+The ability to rendezvous and dock with no or minimum human input is considered as an integrated part of CEV (crew exploration vehicle),
+which is a collection of human and robotic space systems that will allow astronauts to travel safely and cost-effectively to the Moon and Mars.
+Also  this will enable the execution of fuel efficient approach trajectories and reliable operations under any illumination conditions,
+as well as enabling inspection during fly around and safe station-keeping.
+
+One of the technology that can be used for these purposes is LiDAR: detection and distance measuring method that utilizes pulsed light for measuring the distance towards an object (similar to Radar, but using light instead of radio waves).
+LIDAR based sensors have gained popularity over RADAR based sensors because of their superior resolution, they also
+have the advantage of long detection distance and immunity to ambient light over stereo-camera based systems.
+
+Two optical technologies currently used for space rendezvous and docking are cameras and scanning laser rangefinders.
+The camera based systems typically operate at ranges of up to 100m and the maximum range is limited by a trade-off between
+the camera image resolution (which is drastically decreasing like square of distance) and field of view, and the size and separation of visual targets.
+Scanning laser rangefinders use beam steering devices to direct a laser beam to objects in the scene and rely on either a triangulation principle,
+a measure the phase shift (continuous wave), but the most mature and widely used LIDAR technology in space operation is pulse laser based TOF (time-of-flight) LIDAR,
+which measure time between sending and returning of the signal.
+Emergence of novel LIDAR technologies and computer vision algorithms will lead to a new generation of rendezvous and docking systems in the near future.
+Such systems will be capable of autonomously detecting a target satellite at a distance of a few kilometers, estimating its bearing, range and relative orientation under virtually any illumination, and in any satellite pose.
+
+The data from the scanning rangefinder must be processed by a vision system to compute the information, such as
+distance, bearing, pose, that is required by the Guidance, Navigation and Control unit of the autonomous service
+spacecraft. Some easy to reproduce, semi-analytic calibration approach [A7] is developed
+for hardware-in-the-loop performance assessment of pose determination algorithms processing point
+cloud data, collected by imaging a non-cooperative target with LIDARs. 
+
+
+Although laser ranging and scanning sensors are widely used in a variety of industries, a sensor designed for spacecraft
+operations, including autonomous rendezvous, inspection and servicing remains a challenge. This is primarily due to
+critical requirements, including the need to have simultaneous high sampling speed, and good range and lateral
+resolution at both short range of a few meters and at long range of a few hundred meters.
+
+\subsection{Review of existing system}
+
+Up to the present moment, all LiDAR systems used in space are heavy, bulky and have big power
+consumption, which makes it impossible to use them on the CubeSats. 
+LIDARs flown on Previous Spacecraft:
+ASC’s DragonEye,  Ball’s Vision Navigation Sensor (VNS), RendezVous Sensor (RVS) / Telegoniometer (TGM) on HTV / ATV, Videometer (VDM) on the ESA Automated Transfer Vehicle (ATV), Trajectory Control Sensor (TCS) on the Space Shuttle. All of them passed the test of time, but replace them came new technologies.
+
+
+
+\subsubsection{The Jena-Optronik RVS Rendezvous and Docking Sensor}
+The Jena-Optronik RVS Rendezvous and Docking Sensor is the most frequently used LIDAR
+sensor for docking to the International Space Station ISS.
+RVS3000 (Fig.~\ref{fig:jena}) is the advanced 3D imaging LIDAR for rendezvous and docking.
+Acquisition, tracking and imaging of both cooperative and non-cooperative targets.
+
+\begin{figure}[H]
+\begin{floatrow}
+\ffigbox{
+\center{\includegraphics[width=0.8\linewidth]{jena}} 
+}{
+  \caption{Upper side is RVS3000. \\Bottom one is ISS snapshoted by RVS3000.}%
+\label{fig:jena} % or change caption location
+}
+\capbtabbox{
+
+\begin{tabular}{|M{3cm}|M{3cm}|}
+\hline
+Field-of-View: & \textbf{40$\pmb{{^\circ}}$ x 40$\pmb{{^\circ}}$}  \\ \hline
+Wavelength: & \textbf{910 nm} \\  \hline
+Operating range against cooperative targets: & \textbf{< 1500 m} \\  \hline
+Operating range against non-cooperative targets: & \textbf{< 250 m} \\  \hline
+Image frame rate: & \textbf{up to 2 Hz} \\  \hline
+Power consumption: & \textbf{40 W} \\  \hline
+Dimension: & \textbf{575 x 569 x 371 mm} \\  \hline
+Mass: & \textbf{14.5 kg} \\  \hline
+\end{tabular}
+}{%
+\caption{RVS3000 characteristics}
+\label{tbl:jena_characteristics}
+}
+\end{floatrow}
+\end{figure}
+
+Despite the fact that they are leaders in RVS systems, the Lidar has the parameters presented in Table ~\ref{tbl:jena_characteristics}.
+Which making this RVS absolutely not applicable for using at small satellites.
+
+\subsubsection{LIRIS}
+Another new set of optical sensors for non-cooperative rendezvous and docking, called “LIRIS” (Laser Infra-Red Imaging Sensors) desribed more detailed in [A9]
+As part of this project, a prototype for a new 3D Imaging LIDAR was developed, integrated and tested. Fig. \ref{fig:LIRIS}
+
+\begin{figure}[h]
+\begin{floatrow}
+\ffigbox{
+\center{\includegraphics[width=0.8\linewidth]{liris}} 
+}{
+  \caption{Upper side is LIRIS. \\Bottom one is ISS snapshoted by LIRIS.}%
+\label{fig:LIRIS} % or change caption location
+}
+\capbtabbox{
+\begin{tabular}{|M{3cm}|M{2.5cm}|}
+\hline
+Field-of-View: & \textbf{40$\pmb{{^\circ}}$ x 40$\pmb{{^\circ}}$}  \\ \hline
+Wavelength: & \textbf{1550 nm} \\  \hline
+Operating range against cooperative targets: & \textbf{< 3500 m} \\  \hline
+Operating range against non-cooperative targets: & \textbf{< 260 m} \\  \hline
+Image frame rate: & \textbf{up to 3 Hz} \\  \hline
+Power consumption: & \textbf{35 W} \\  \hline
+Dimension: & \textbf{292 x 465 x 385 mm} \\  \hline
+Mass: & \textbf{13.1 kg} \\  \hline
+\end{tabular}
+}{%
+\caption{LIRIS characteristics}
+\label{tbl:liris_datasheet}
+}
+\end{floatrow}
+\end{figure}
+
+Same here, dimesion and size making this RVS absolutely not applicable for using at small satellites.
+
+
+\subsubsection{Neptec's TriDAR}
+\begin{minipage}[h]{0.40\linewidth}
+\begin{figure}[H]
+\center{\includegraphics[width=1\linewidth]{tridar}} a) \\
+\caption{Neptec's TriDAR module}
+\label{fig:cubesat}
+\end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.48\linewidth}
+Neptec’s TriDAR was specifically designed for non-cooperative missions such as satellite servicing which require high levels of autonomy.
+This allows the sensor to be adapted to rendezvous and dock to different targets and approach profiles even after launch.
+% It now serves as a primary rendezvous and docking sensor for the Cygnus spacecraft for cargo resupply missions to the International Space Station (ISS).
+Unfortunately, there is no free access to the information about the parameters of the system, but one can say with confidence that they do not exceed RVS3000 / LIRIS, since TriDAR was released much earlier.
+\end{minipage}
+\vspace{1cm}
+\subsection{landing}
+Lidar can be recognized as a primary candidate sensor for safe precision landing on solar system bodies (Moon, Mars, Jupiter and Saturn moons, etc.).
+For future robotic missions to the Moon and Mars that require
+landing at pre-designated sites of high scientific value, while avoiding hazardous terrain features, such as escarpments, craters, slopes, and rocks.
+During the final stages of landing (Approach Phase at fig ~\ref{fig:landing}), from about 1 km to 500 m above the ground, the 
+lidar can generate 3-dimensional images of the terrain to identify hazardous features such as craters, rocks, and steep slopes. The onboard flight computer then can use the 3-D map of terrain to guide the vehicle to a safe location.
+
+\begin{figure}[h]
+\center{\includegraphics[height=9cm, width=1\linewidth]{land}} 
+  \caption{Typical Lunar descent and landing phase}%
+\label{fig:landing} % or change caption location
+\end{figure}
+
+According to [A8, A2], the minimum requirements which should be satisfied in lidar system are represented in Table \ref{tbl:landing_datasheet}:
+
+
+
+\begin{figure}[h]
+\begin{floatrow}
+\ffigbox{
+\center{\includegraphics[height=4cm, width=1\linewidth]{asteroid_grab}} 
+}{
+  \caption{Lidar sensor characterizing an asteroid surface before terminal approach for collecting samples or capturing a boulder}%
+\label{fig:asteroid_grab} % or change caption location
+}
+\capbtabbox{
+
+\begin{tabular}{|M{2.5cm}|M{2.5cm}|}
+\hline
+Range: & \textbf{0 to 5000 m}  \\ \hline
+Field of View: & \textbf{> 20$\pmb{{^\circ}}$ x 20$\pmb{{^\circ}}$} \\  \hline
+Spatial Resolution: & \textbf{<0.25m at 300m} \\  \hline
+Range accuracy: & \textbf{<5m(5km) <0.1m (300m)
+<0.02m (10m)} \\  \hline
+Image frame rate: & \textbf{> 1Hz} \\  \hline
+\end{tabular}
+}{%
+\caption{The minimum requirements which should be satisfied in lidar system for landing}
+\label{tbl:landing_datasheet}
+}
+\end{floatrow}
+\end{figure}
+
+
+One more application comes from studying of morphological characterization of asteroids, the lidar can analyze asteroid surface before terminal approach (Fig. ~\ref{fig:asteroid_grab}).
 
 
 
 
 
 
-\label{my_desire}
-Hello to everyone, I really want to make
-Latex diploma and I will
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
 
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
+\subsubsection{ours}
+Advance of sensor technologies and novel tracking algorithms has led to a few new approaches of autonomous rendezvous and dock,
+but it still typically requires multiple systems to complete the operation. It is desirable to have one system that can do the tracking at all distances. 
+Reducing the number of sensors necessary to cover the required range of distances (preferably to one) has significant
+benefits due the reduced launch mass and volume, and lower power requirements.
 
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
+At our Labaratory we have developed such vision system based on a scanning LIDAR to get real-time 3D picture.
+Our LiDAR consumes much less power (~5W) and has an incredible small mass (<500g) and size of a matchbox, while is able to track satellite pose with high accuracy and high frame rate.
 
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
 
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
 
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
 
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
 
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
 
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
 
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
 
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
 
-MEMS,Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
 
-asdasd as I said in ~\ref{my_desire}
 
-asd
-s
 
-\begin{enumerate}
-\item xcxc
-\item xc
-\item xc
-\item xcx
-\end{enumerate}
 
-Table is:
-\ref{tbl:test_table}
 
-Fig is:
-\ref{fig:test_fig}
 
-\begin{itemize}
-\item xcxc
-\item xcxc
-\item cf
-\end{itemize}
 
-% \section{general moments \#2}
-% FPGA, Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway Alexander Refsum Jensenius is a music researcher and research musician living in Oslo, Norway
+
+
+
+
+\section{LiDAR for rover puprose (About methods of navigation)}
+
+%% 1041
+In recent decades, terrain modelling and reconstruction techniques have increased research
+interest in precise short and long distance autonomous navigation, localisation and mapping within field robotics. One of the most challenging applications is in relation to autonomous planetary exploration using mobile robots.
+Rover navigation on planetary surfaces can be extremely hazardous, which includes vehicle rollover on sloped terrain, or immobilizing wheel slippage on loose sand. That is why high
+resolution topographic data is required to ensure rover safety and mission success. 
+A terrain feature information can be exploited to assess
+obstacle size, slope angle, or terrain roughness so that
+the rover is able to find its heading for travel.
+
+The farther an explored planet is, the longer it would take a commanding signal to reach from an earth commanding station to planet exploring rover.
+Thus, it is necessary for a space rover to be capable of autonomous and semi-autonomous decision making such as localization, navigation, and environmental mapping, with little intervention from ground control at very high traverse speeds. Missions that require absolute rover localisation remain a challenging problem due to the absence of helping technologies such as Global Positioning Systems (GPS) on extraterrestrial planets.
+
+The majority of the rover onboard vision systems in past and current missions (such as, Mars
+Exploration Rover (MER), Mars Science Laboratory (MSL) and Exobiology on Mars (ExoMars)) use
+cameras for terrain perception, such as; stereopsis for autonomous rover navigation (e.g., visual odometry), hazard detection (e.g., slip perception) and scientific study (e.g., MSL ChemCam) [5] % sensors
+
+The drawbacks of the camera-based terrain mapping are that
+a stereo matching process is generally a time-consuming task(finding correlation between 2 frames of cameras) for the low-power flight CPU of the rover, requiring relatively long computational time, especially higher resolution cameras are used. [3]. Additionally, the
+quality of visual information may vary with the intensity of sunlight/shadows. %% ISAIRA_2012 (A5)
+Also, there is a significant decrease in the accuracy of the estimated depth with the increase in distance from the camera (Eq. \ref{eq:stereo_error}), which may not be deemed suitable for long range terrain modelling and perception. 
+Make photo here
+\begin{equation}\label{eq:stereo_error}
+\text{\O}_{\perp} = 2 \cdot f \cdot \tan{(\frac{\theta_{\perp}}{2})}
+\end{equation}
+
+From Eq, for erro we got:
+
+\begin{equation}\label{eq:stereo_error}
+\text{\O}_{\perp} = 2 \cdot f \cdot \tan{(\frac{\theta_{\perp}}{2})}
+\end{equation}
+
+Hence stereopsis does not provide an optimal solution beyond a few metres from the rover for future more challenging planetary rover missions.
+
+Another technique for the terrain mapping involves the use of a lidar that can determine a distance from a laser emitter to an object based on the time of flight principle, this technology been used extensively for precise long and short target detection, identification, and depth estimation. There have been an extensive research and development for using the LIDAR technique in a terrain feature mapping and terrain classification [5]–[8]. Comparing the LIDAR-based terrain mapping to the camera-based one, the LIDAR can directly measure three-dimensional distances from the sensor to the objects, providing “point cloud” data of the scene without any additional processes (c.f. the camera-based mapping needs stereo matching for the 3D mapping). 
+After that, the point cloud data of the terrain features provided by the LIDAR are converted into a digital elevation map with a sector-shaped reference grid  for the DEM conversion, which is represented in the cylindrical coordinate, termed as $C^2DEM$.
+
+
+
+
+
+\begin{minipage}[h]{0.40\linewidth}
+\begin{figure}[H]
+\center{\includegraphics[width=1\linewidth]{DEC}} a) \\
+\caption{Neptec's TriDAR module}
+\label{fig:cubesat}
+\end{figure}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.48\linewidth}
+
+An example of C2 DEM conversion from a point cloud data is shown in.
+The terrain mapping with the C DEM achieves detailed representation of the terrain near the rover as well as wide selectivity of the rover look-ahead directions.
+Finally, the path planning algorithm considering three indices: terrain inclination, terrain roughness, and path length makes decision about  the path.
+A Gimbailed base Lidar, uses both stereo-cameras and lidar is shown at Fig.\ref{fig:rover}
+\end{minipage}
+\vspace{1cm}
+
+
+
+
+
+
+
+\begin{figure}[H]
+\begin{floatrow}
+\ffigbox{
+\center{\includegraphics[width=1\linewidth]{rover}} 
+}{
+  \caption{Gimbaled-LIDAR system for terrain mapping.}%
+\label{fig:rover} % or change caption location
+}
+
+\capbtabbox{
+
+\begin{tabular}{|M{2.5cm}|M{2.5cm}|}
+\hline
+Range: & \textbf{0 to 5000 m}  \\ \hline
+Field of View: & \textbf{> 20$\pmb{{^\circ}}$ x 20$\pmb{{^\circ}}$} \\  \hline
+Spatial Resolution: & \textbf{<0.25m at 300m} \\  \hline
+Range accuracy: & \textbf{<5m(5km) <0.1m (300m)
+<0.02m (10m)} \\  \hline
+Image frame rate: & \textbf{> 1Hz} \\  \hline
+\end{tabular}
+}{%
+\caption{The minimum requirements which should be satisfied in lidar system for landing}
+\label{tbl:landing_datasheet}
+}
+
+\end{floatrow}
+\end{figure}
+
+
+
+3) Lunar rover is needed for Korean Lunar mission.
+
+
+\section{Our lidar concept}
+
+THIS IS SINGLE-PHOTON LIDAR!
+
+
+
+
+%% OUR LIDAR concept/solution%%%
+Very tiny FOV, very small \& robust.
+Parameters are tunable for current exp. 
+
+Independent of the way that a spacecraft was controlled (distant from the Earth or
+fully autonomously according to an uploaded program), complex operations such as landing, orbit
+maneuvers and docking were never possible without precise knowledge of the craft’s own position
+relative to its surroundings.
+
+The detection of surrounding objects may be done passively, like when a
+detector gathers preexisting signals (like sensing of surrounding light or a magnetic field) and
+actively, such as when a detector produces signals by itself and observes the way they scatter and
+reflect in relation to the surroundings. The first way – passive – is the way all human senses
+operates, as well as all of the possible cameras. The second – the active way – stands for devices like
+RADARs (Radio wave detection and ranging) and LiDARs (Light Detection and Ranging); SONARs
+(Sound Detection and Ranging) are also included, but up to now, they have no relation to space
+science).
+
+Made just after World War II, the first LiDARs were doing weather observations by measuring
+height of clouds. Today, LiDARs are involved in space science, and they are being utilized for the
+Earth’s atmosphere and the Moon’s surface observations. They are used for docking of spacecrafts
+to ISS, and even landing LiDARs is under design for Mars landing missions.
+
+Our laboratory developed a LiDAR submodule with the size of a matchbox. This LiDAR
+consumes little power and has a small mass. The LiDAR submodule (or a set of several submodules)
+is suitable for close distance scanning, and it is perfect for Mars and Lunar rovers because it can
+71
+allow them to make detailed scans of the surrounding without considerable payload losses. The
+concept we are developing (MEMS pinhole), basically, is a unique technology that allows not only
+LiDARs development, but also other scientific instruments, such as spectrometers or cameras.
+	
+
+
+
+TriDAR is designed for space applications. Therefore, it must withstand the extreme temperature swings (-40C to
+80C) in space and the launching/landing vibration spectrum.
+
+The micro-electro-mechanical systems (MEMS) mirror is an optical beam-steering technology that is
+used in many industries. They are small in size (typically 1-8 mm), so the mirror may be driven by
+electromagnetic, electrostatic or piezo-electric actuators; it is produced in the form of a chip.
+Figure A1. Mirrorcle MEMS mirror chip in LCC20 (left) and DIP24 (right) package.
+Despite that most of the modern LiDARs are based on motor scanning, MEMS mirrors are commonly
+used in LiDARs too (see Figure A2). The advantage of using MEMS mirror instead of a motor is the
+significant decrease of LiDAR’s size and mass in comparison, while the main disadvantage of MEMS
+mirrors in LiDARs is their small FoV (order of 20 deg instead of 360 deg).
+Figure A2. A typical schematic of MEMS mirror-based LiDAR. Laser beam is steered by the MEMS
+mirror. Contrarily, the detector looks everywhere, and it has a large FoV and consequently low
+SNR.
+72
+We improved the MEMS LiDAR idea by focusing the detector FoV only on the laser beam spot, and
+thus the detector ignores all of the background of its surroundings. The number of background
+photons is proportional to the square of the detector’s FoV size. When the FoV size is decreased
+from the typical 20-30 degree to 0.1 degree, the background decreases ~ 105 times. With a
+combination of a narrow band-pass optical filter and quick enough electronics readouts, the
+background drops as low as 0-1 photon per sampling time. It becomes possible to distinguish a signal
+that consists only of 2-3 photons.
+In order to ensure the detector FoV is always directed on laser beam spot, we directed detector
+collimator optical axis onto the MEMS mirror, same as the laser beam (see Figure A3). The detector
+collimator optical axis and laser beam become parallel through beam splitting system. We do not
+utilize a half-transparent 45 deg mirror for beam splitting, as this approach decreases the efficiency of
+laser impulse energy to 25% (50% of outgoing beam is lost, and the same amount of incoming light is
+lost too). Instead, we make both beams parallel by a special mirror construction.
+Figure A3. Schematic of MEMS pinhole LiDAR. Both laser beam and detector FoV are steered by
+the MEMS mirror. Due to this steering, the detector can look only to the laser spot on a target,
+neglecting surroundings. This concept allows a much higher SNR and consequently much higher
+distance range.
+A further advantage of the MEM pinhole LiDAR that we made is silicon photomultiplier (SiPM)
+sensor. The SiPM is s solid-state single photon sensitive detector of small size (1-6 mm), which has a
+lower detection threshold than avalanche photodiodes (APDs) that are utilized in other LiDARs. By
+combining a narrow FoV of the detector collimator and SiPM sensor, we increase LiDAR sensitivity
+several hundred times over. Therefore, the resulting LiDAR does not require huge aperture lenses,
+73
+and it may be implemented as one or two orders smaller in size than other existing LiDARs without
+the loss any of its parameters, such as the distance measurement range.
+
+
+
+
+% CONCLUSION FROM SITE
+suitable for a uniquely wide range of space applications - from orbital mapping and proximity operations of small bodies such as asteroid and comets, to full scale entry, decent and landing operations on other planetary bodies. Low Earth Orbit operations such as rendezvous and docking between spacecraft, and space debris search and collection can also be accommodated
+
+The design combines several advanced technologies which have matured independently of each other into a state-of-the-art system with performance parameters and flexibility greatly exceeding those of the existing instruments. Its key advantage is the operation at the ultimate single photon sensitivity level which minimizes instrument Size, Weight, and Power (SWAP). It is combined with other useful features such as high spatial and range resolution, wide FOV, highly flexible scanning with variable field of regard (FOR), autonomous target acquisition and tracking, and programmable surface measurement rates up to several 3D Megapixels per second (Mpix/s) during orbital mapping and spacecraft entry, descent and landing operations. It advances the state of the art by extending the range of 3D measurements from 10m to 10km, improving the measurement accuracy and the spatial resolution and significantly reducing the impact of incorporating such sensors on the spacecraft in terms of SWAP, spacecraft accommodation complexity, and cost.
+
+
+
+
+\section{About ISS-gamma mission(can be checked in space)}
+Preflight test can be done in ISS gamma exp (we can detect trash to check wheter it working or not).
+
+The aim of thise thesis is making lidar which can be used like rendevouz \& rover.
+
+\section{Outline}
+This thesis is organized as follows. In chapter 2, I describe my preflight work on the SMT,
+which consists of updates of the onboard FPGA firmware and the reasons for them. In chapter 3, I
+explain the problems that occurred with the SMT hardware in space and the means of its recovery,
+which was found with a preflight model of the UFFO (PFM). Then, in chapter 4, I report on the
+results of the SMT imaging and motor performance tests. Chapter 5 provides an overview of the
+observations made by the SMT in space. Finally, I present a summary in chapter 6.
