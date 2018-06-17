@@ -2,37 +2,40 @@
 \save@tocdepth \setcounter {tocdepth}{2}
 \select@language {english}
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
-\contentsline {section}{\numberline {1.1}Docking \& Rendezvous for CubeSets}{4}{section.1.1}
+\contentsline {section}{\numberline {1.1}Autonomous Rendezvous And Docking}{4}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Review of existing system}{5}{subsection.1.1.1}
 \contentsline {subsubsection}{\numberline {1.1.1.1}The Jena-Optronik RVS Rendezvous and Docking Sensor}{5}{subsubsection.1.1.1.1}
 \contentsline {subsubsection}{\numberline {1.1.1.2}LIRIS}{6}{subsubsection.1.1.1.2}
 \contentsline {subsubsection}{\numberline {1.1.1.3}Neptec's TriDAR}{7}{subsubsection.1.1.1.3}
-\contentsline {subsection}{\numberline {1.1.2}landing}{7}{subsection.1.1.2}
-\contentsline {subsubsection}{\numberline {1.1.2.1}ours}{9}{subsubsection.1.1.2.1}
-\contentsline {section}{\numberline {1.2}LiDAR for rover puprose (About methods of navigation)}{9}{section.1.2}
-\contentsline {section}{\numberline {1.3}Our lidar concept}{11}{section.1.3}
-\contentsline {section}{\numberline {1.4}About ISS-gamma mission(can be checked in space)}{14}{section.1.4}
-\contentsline {section}{\numberline {1.5}Outline}{14}{section.1.5}
-\contentsline {chapter}{\numberline {2}Design}{15}{chapter.2}
-\contentsline {section}{\numberline {2.1}submodule structure}{15}{section.2.1}
-\contentsline {section}{\numberline {2.2}Laser module}{15}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Laser}{15}{subsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.1.1}The requirements}{15}{subsubsection.2.2.1.1}
-\contentsline {subsubsection}{\numberline {2.2.1.2}Theoretical background}{16}{subsubsection.2.2.1.2}
-\contentsline {subsubsection}{\numberline {2.2.1.3}The laser choice}{18}{subsubsection.2.2.1.3}
-\contentsline {subsection}{\numberline {2.2.2}Laser collimator}{18}{subsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.1}Analytical calculations}{18}{subsubsection.2.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2.2}The optical system choice}{21}{subsubsection.2.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.3}ZEMAX simulation}{21}{subsubsection.2.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.2.4}Assembled laser collimator}{23}{subsubsection.2.2.2.4}
-\contentsline {subsection}{\numberline {2.2.3}Laser driver}{23}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Final}{24}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}MEMS module}{24}{section.2.3}
-\contentsline {section}{\numberline {2.4}SiPM module}{24}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}SiPM detector}{24}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}SiPM collimator}{24}{subsection.2.4.2}
-\contentsline {chapter}{References}{26}{chapter*.24}
-\contentsline {chapter}{Appendix \numberline {A}Consectetur adipiscing elit}{27}{Appendix.1.A}
-\contentsline {section}{\numberline {A.1}First part}{27}{section.1.A.1}
-\contentsline {section}{\numberline {A.2}Second}{27}{section.1.A.2}
-\contentsline {chapter}{Appendix \numberline {B}Mauris euismod}{28}{Appendix.1.B}
+\contentsline {subsection}{\numberline {1.1.2}Spacecraft Landing Applications}{7}{subsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.2.1}Our solution for Rendezvous And Docking}{9}{subsubsection.1.1.2.1}
+\contentsline {section}{\numberline {1.2}Terrain Mapping and Navigation for a Planetary Exploration Rover }{9}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Our solution for Korean Lunar Exploration Program}{12}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.3}About ISS-gamma mission(can be checked in space)}{13}{section.1.3}
+\contentsline {section}{\numberline {1.4}Outline}{13}{section.1.4}
+\contentsline {chapter}{\numberline {2}Lidar concept}{14}{chapter.2}
+\contentsline {section}{\numberline {2.1}Submodule}{14}{section.2.1}
+\contentsline {chapter}{\numberline {3}Design}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Laser module}{15}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Laser}{15}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}The requirements}{15}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Theoretical background}{16}{subsubsection.3.1.1.2}
+\contentsline {subsubsection}{\numberline {3.1.1.3}The laser choice}{17}{subsubsection.3.1.1.3}
+\contentsline {subsection}{\numberline {3.1.2}Laser collimator}{18}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}Analytical calculations}{18}{subsubsection.3.1.2.1}
+\contentsline {subsubsection}{\numberline {3.1.2.2}The optical system choice}{20}{subsubsection.3.1.2.2}
+\contentsline {subsubsection}{\numberline {3.1.2.3}ZEMAX simulation}{21}{subsubsection.3.1.2.3}
+\contentsline {subsubsection}{\numberline {3.1.2.4}Assembled laser collimator}{23}{subsubsection.3.1.2.4}
+\contentsline {subsection}{\numberline {3.1.3}Laser driver}{23}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Completed laser module}{24}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}MEMS module}{25}{section.3.2}
+\contentsline {section}{\numberline {3.3}SiPM module}{27}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}SiPM detector}{27}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}SiPM collimator}{30}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Completed SiPM module}{31}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Final implementation}{32}{section.3.4}
+\contentsline {chapter}{References}{34}{chapter*.40}
+\contentsline {chapter}{Appendix \numberline {A}Consectetur adipiscing elit}{35}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}First part}{35}{section.1.A.1}
+\contentsline {section}{\numberline {A.2}Second}{35}{section.1.A.2}
+\contentsline {chapter}{Appendix \numberline {B}Mauris euismod}{36}{Appendix.1.B}

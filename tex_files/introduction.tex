@@ -26,19 +26,10 @@ Artificial satellites come in a variety of sizes ranging from one you can hold i
 \end{minipage}
 \hfill
 \begin{minipage}[h]{0.5\linewidth}
-
 A CubeSat (CS) is a type of miniaturized satellite for space research, these nanosatellites typically weigh between 1 and 10 kilograms and follow the popular 'CubeSat' standard,
 which defines the outer dimensions of the satellite within multiple cubic units of 10x10x10 cm.
-
-
 \end{minipage}
 \vspace{1cm}
-
-
-
-% a) Laser diode end-pumped activelly Q-switched laser utilizing a langasite (LGS) crystal as an electro-optic Q-switch.
-% b) High repetition rate laser-diode end-pumped passively Q-Switched Nd:LuVO4/Cr4+:YAG
-% }
 
 
 Utilization of a simplified infrastructure enables a low-cost platform to test the space readiness of new hardware without an exorbitant amount of prohibitive design, thus
@@ -79,13 +70,10 @@ that with a modest design adjustment can meet the needs of both landing and prox
 % Current optical systems operate at much shorter distances, range towards the target, but they can be easily improved later.
 
 %% more deeply about docking %%
-\section{Docking \& Rendezvous for CubeSets}
+\section{Autonomous Rendezvous And Docking}
 % A_12
-% Servicing satellites on-orbit requires ability to rendezvous and dock by an unmanned spacecraft with no or minimum human input.
-
 \begin{minipage}[H]{0.45\linewidth}
 \begin{figure}[H]
-
 \center{\includegraphics[width=1\linewidth]{docking}}
 \caption{Orion vehicle docking with an Earth Departure Stage }
 \label{fig:docking}
@@ -93,15 +81,11 @@ that with a modest design adjustment can meet the needs of both landing and prox
 \end{minipage}
 \hfill
 \begin{minipage}[h]{0.48\linewidth}
-
 There are also number of space operations that require the ability to rendezvous and dock by an unmanned spacecraft including:
 servicing satellites on-orbit; assembly of large space structures in Earth orbit; and transfer of Martian soil samples from a lander to a return spacecraft on the Mars orbit, as part of a sample return mission and even space debris removal.
 \end{minipage}
 \vspace{1cm}
 
-
-% There are also number of space operations that require the ability to rendezvous and dock by an unmanned spacecraft including:
-% servicing satellites on-orbit; assembly of large space structures in Earth orbit; and transfer of Martian soil samples from a lander to a return spacecraft on the Mars orbit, as part of a sample return mission and even space debris removal.
 Novel imaging sensors and computer vision technologies are required to detect a target spacecraft at a distance of several kilometers in an arbitrary orientation and to guide the approaching spacecraft to contact with the docking port. 
 The ability to rendezvous and dock with no or minimum human input is considered as an integrated part of CEV (crew exploration vehicle),
 which is a collection of human and robotic space systems that will allow astronauts to travel safely and cost-effectively to the Moon and Mars.
@@ -140,12 +124,10 @@ consumption, which makes it impossible to use them on the CubeSats.
 LIDARs flown on Previous Spacecraft:
 ASC’s DragonEye,  Ball’s Vision Navigation Sensor (VNS), RendezVous Sensor (RVS) / Telegoniometer (TGM) on HTV / ATV, Videometer (VDM) on the ESA Automated Transfer Vehicle (ATV), Trajectory Control Sensor (TCS) on the Space Shuttle. All of them passed the test of time, but replace them came new technologies.
 
-
-
 \subsubsection{The Jena-Optronik RVS Rendezvous and Docking Sensor}
 The Jena-Optronik RVS Rendezvous and Docking Sensor is the most frequently used LIDAR
 sensor for docking to the International Space Station ISS.
-RVS3000 (Fig.~\ref{fig:jena}) is the advanced 3D imaging LIDAR for rendezvous and docking.
+RVS3000  is the advanced 3D imaging LIDAR for rendezvous and docking (Fig.~\ref{fig:jena}).
 Acquisition, tracking and imaging of both cooperative and non-cooperative targets.
 
 \begin{figure}[H]
@@ -157,7 +139,6 @@ Acquisition, tracking and imaging of both cooperative and non-cooperative target
 \label{fig:jena} % or change caption location
 }
 \capbtabbox{
-
 \begin{tabular}{|M{3cm}|M{3cm}|}
 \hline
 Field-of-View: & \textbf{40$\pmb{{^\circ}}$ x 40$\pmb{{^\circ}}$}  \\ \hline
@@ -182,7 +163,6 @@ Which making this RVS absolutely not applicable for using at small satellites.
 \subsubsection{LIRIS}
 Another new set of optical sensors for non-cooperative rendezvous and docking, called “LIRIS” (Laser Infra-Red Imaging Sensors) desribed more detailed in [A9]
 As part of this project, a prototype for a new 3D Imaging LIDAR was developed, integrated and tested. Fig. \ref{fig:LIRIS}
-
 \begin{figure}[h]
 \begin{floatrow}
 \ffigbox{
@@ -210,7 +190,7 @@ Mass: & \textbf{13.1 kg} \\  \hline
 \end{floatrow}
 \end{figure}
 
-Same here, dimesion and size making this RVS absolutely not applicable for using at small satellites.
+Same here, dimesion and size (Table \ref{tbl:liris_datasheet}) making this RVS absolutely not applicable for using at small satellites.
 
 
 \subsubsection{Neptec's TriDAR}
@@ -229,7 +209,7 @@ This allows the sensor to be adapted to rendezvous and dock to different targets
 Unfortunately, there is no free access to the information about the parameters of the system, but one can say with confidence that they do not exceed RVS3000 / LIRIS, since TriDAR was released much earlier.
 \end{minipage}
 \vspace{1cm}
-\subsection{landing}
+\subsection{Spacecraft Landing Applications}
 Lidar can be recognized as a primary candidate sensor for safe precision landing on solar system bodies (Moon, Mars, Jupiter and Saturn moons, etc.).
 For future robotic missions to the Moon and Mars that require
 landing at pre-designated sites of high scientific value, while avoiding hazardous terrain features, such as escarpments, craters, slopes, and rocks.
@@ -276,12 +256,7 @@ Image frame rate: & \textbf{> 1Hz} \\  \hline
 One more application comes from studying of morphological characterization of asteroids, the lidar can analyze asteroid surface before terminal approach (Fig. ~\ref{fig:asteroid_grab}).
 
 
-
-
-
-
-
-\subsubsection{ours}
+\subsubsection{Our solution for Rendezvous And Docking}
 Advance of sensor technologies and novel tracking algorithms has led to a few new approaches of autonomous rendezvous and dock,
 but it still typically requires multiple systems to complete the operation. It is desirable to have one system that can do the tracking at all distances. 
 Reducing the number of sensors necessary to cover the required range of distances (preferably to one) has significant
@@ -294,22 +269,8 @@ Our LiDAR consumes much less power (~5W) and has an incredible small mass (<500g
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\section{LiDAR for rover puprose (About methods of navigation)}
+\section{Terrain Mapping and Navigation for a Planetary Exploration Rover
+}
 
 %% 1041
 In recent decades, terrain modelling and reconstruction techniques have increased research
@@ -330,47 +291,74 @@ cameras for terrain perception, such as; stereopsis for autonomous rover navigat
 The drawbacks of the camera-based terrain mapping are that
 a stereo matching process is generally a time-consuming task(finding correlation between 2 frames of cameras) for the low-power flight CPU of the rover, requiring relatively long computational time, especially higher resolution cameras are used. [3]. Additionally, the
 quality of visual information may vary with the intensity of sunlight/shadows. %% ISAIRA_2012 (A5)
-Also, there is a significant decrease in the accuracy of the estimated depth with the increase in distance from the camera (Eq. \ref{eq:stereo_error}), which may not be deemed suitable for long range terrain modelling and perception. 
-Make photo here
-\begin{equation}\label{eq:stereo_error}
-\text{\O}_{\perp} = 2 \cdot f \cdot \tan{(\frac{\theta_{\perp}}{2})}
+Also, there is a significant decrease in the accuracy of the estimated depth Z with the increase in distance from the camera (Eq. \ref{eq:stereo_error}), which may not be deemed suitable for long range terrain modelling and perception. 
+
+
+
+\begin{figure}[H]
+\begin{minipage}[h]{0.4\linewidth}
+\center{\includegraphics[width=1.2\linewidth]{stereo}}
+\end{minipage}
+\hfill
+\begin{minipage}[h]{0.45\linewidth}
+
+The left diagram contains equivalent triangles. Writing their equivalent equations will yield us following result:
+
+\begin{equation}\label{eq:stereo_eq}
+z=f \cdot \frac{B}{d}
 \end{equation}
 
-From Eq, for erro we got:
+Where f is focal length, B is baseline, $d = x-x'$. Here d is known as the disparity.
+
+\end{minipage}
+\caption{
+A simple stereo geometry
+}
+\label{fig:lens}
+\end{figure}
+
+
+
+
+From Eq \ref{eq:stereo_eq} by differentiating, for depth error we got:
 
 \begin{equation}\label{eq:stereo_error}
-\text{\O}_{\perp} = 2 \cdot f \cdot \tan{(\frac{\theta_{\perp}}{2})}
+\delta z =  \frac{z^2}{f \cdot B} \cdot \delta d
 \end{equation}
+
+As can be seen from Eq. \ref{eq:stereo_error} depth resolution is proportional to the square of the depth (Z) and is inversely proportional to the focal length (f) and baseline (B), or distance between the cameras.
+Good depth resolution requires a large baseline (B) value, a large focal length (f) value and a small depth (Z) value.
+Depth resolution depends on accurate disparity estimations. The accuracy of disparity estimation is directly proportional to pixel size, where smaller pixel sizes provide better resolution. Typically, disparity can be estimated accurately to about one fifth of a pixel. For a camera with a pixel size of 7.5 microns, this translates to a disparity resolution of 1.5 microns. 
 
 Hence stereopsis does not provide an optimal solution beyond a few metres from the rover for future more challenging planetary rover missions.
 
-Another technique for the terrain mapping involves the use of a lidar that can determine a distance from a laser emitter to an object based on the time of flight principle, this technology been used extensively for precise long and short target detection, identification, and depth estimation. There have been an extensive research and development for using the LIDAR technique in a terrain feature mapping and terrain classification [5]–[8]. Comparing the LIDAR-based terrain mapping to the camera-based one, the LIDAR can directly measure three-dimensional distances from the sensor to the objects, providing “point cloud” data of the scene without any additional processes (c.f. the camera-based mapping needs stereo matching for the 3D mapping). 
-After that, the point cloud data of the terrain features provided by the LIDAR are converted into a digital elevation map with a sector-shaped reference grid  for the DEM conversion, which is represented in the cylindrical coordinate, termed as $C^2DEM$.
+Another technique for the terrain mapping involves the use of a lidar that can determine a distance from a laser emitter to an object based on the time of flight principle,
+this technology been used extensively for precise long and short target detection, identification, and depth estimation.
+Extensive research and development for using the LIDAR technique in
+a terrain feature mapping and terrain classification described in [5]–[8].
+Comparing the LIDAR-based terrain mapping to the camera-based one, the LIDAR can directly measure
+three-dimensional distances from the sensor to the objects, providing “point cloud” data of the scene without any additional processes (the camera-based mapping needs stereo matching for the 3D mapping). 
+After that, the point cloud data of the terrain features provided by the LIDAR are converted into a digital elevation map with
+a sector-shaped reference grid  for the DEM conversion, termed as $C^2DEM$.
 
 
-
-
-
-\begin{minipage}[h]{0.40\linewidth}
+\begin{minipage}[h]{0.45\linewidth}
 \begin{figure}[H]
-\center{\includegraphics[width=1\linewidth]{DEC}} a) \\
-\caption{Neptec's TriDAR module}
-\label{fig:cubesat}
+\center{\includegraphics[width=1\linewidth]{DEC}} 
+\caption{An example of point cloud to $C^2DEM$ transformation.}
+\label{fig:DEC}
 \end{figure}
 \end{minipage}
 \hfill
 \begin{minipage}[h]{0.48\linewidth}
-
-An example of C2 DEM conversion from a point cloud data is shown in.
-The terrain mapping with the C DEM achieves detailed representation of the terrain near the rover as well as wide selectivity of the rover look-ahead directions.
+An example of $C^2DEM$ conversion from a point cloud data is shown in Fig. \ref{fig:DEC}.
+The terrain mapping with the $C^2DEM$ achieves detailed representation of the terrain near the rover as well as wide selectivity of the rover look-ahead directions.
 Finally, the path planning algorithm considering three indices: terrain inclination, terrain roughness, and path length makes decision about  the path.
-A Gimbailed base Lidar, uses both stereo-cameras and lidar is shown at Fig.\ref{fig:rover}
+
 \end{minipage}
 \vspace{1cm}
 
-
-
-
+Lidar-based terrain mapping and navigation for a planetary exploration rover was succesfully tested in [ISA2012] by using motorable lidar made by Hokuyo. Vision system of this rover uses both stereo-cameras and lidar placed at 2-axis rotatable fimbale (Fig.\ref{fig:rover}).
 
 
 
@@ -379,23 +367,28 @@ A Gimbailed base Lidar, uses both stereo-cameras and lidar is shown at Fig.\ref{
 \ffigbox{
 \center{\includegraphics[width=1\linewidth]{rover}} 
 }{
+	\vspace{-0.5cm}
   \caption{Gimbaled-LIDAR system for terrain mapping.}%
 \label{fig:rover} % or change caption location
 }
 
 \capbtabbox{
 
-\begin{tabular}{|M{2.5cm}|M{2.5cm}|}
+\begin{tabular}{|M{2.5cm}|M{3.5cm}|}
 \hline
-Range: & \textbf{0 to 5000 m}  \\ \hline
-Field of View: & \textbf{> 20$\pmb{{^\circ}}$ x 20$\pmb{{^\circ}}$} \\  \hline
-Spatial Resolution: & \textbf{<0.25m at 300m} \\  \hline
-Range accuracy: & \textbf{<5m(5km) <0.1m (300m)
-<0.02m (10m)} \\  \hline
+Scanning range: & \textbf{0.1 to 30m} \\  \hline
+Wavelength: & \textbf{905 nm} \\  \hline
+Field of View: & \textbf{20$\pmb{{^\circ}}$ x 190$\pmb{{^\circ}}$} \\  \hline
+Scanning angle resolution: & \textbf{0.25$\pmb{{^\circ}}$} \\  \hline
+Range accuracy: & \textbf{$\pm$ 0.1 m} \\  \hline
 Image frame rate: & \textbf{> 1Hz} \\  \hline
+Power consumption: & \textbf{6 W} \\  \hline
+Dimensions: & \textbf{124 x 126 x 150mm} \\  \hline
+Weight: & \textbf{800 g} \\  \hline
+
 \end{tabular}
 }{%
-\caption{The minimum requirements which should be satisfied in lidar system for landing}
+\caption{Specification of the LIDAR scanning system}
 \label{tbl:landing_datasheet}
 }
 
@@ -404,111 +397,39 @@ Image frame rate: & \textbf{> 1Hz} \\  \hline
 
 
 
-3) Lunar rover is needed for Korean Lunar mission.
 
+Clearly that LiDAR has a key-role in rover navigation, it covers both short range and long range.
+Additionally to be easy-to use and therefore adapted to fast-making decisions, like multi-path planning that is used for an
+autonomous mobility of a planetary exploration rover.
+The data allows cm-precise estimations of distances, heights and slopes, which are critical for safe rover displacement as well as remote and contact science operations.
+It also allows extremely detailed surface mapping of objects and therefore has implications for our knowledge of planetary surfaces.
+A drawback of the LIDAR-based mapping is that the LIDAR cannot obtain pure color data of the terrain (in
+grayscale or RGB) even though it can measure the distance as well as intensity of the light reflected from objects.
+Therefore, a possible future realization will be forwarded to enables three-dimensional mapping with color of the terrain.
 
-\section{Our lidar concept}
-
-THIS IS SINGLE-PHOTON LIDAR!
-
-
-
-
-%% OUR LIDAR concept/solution%%%
-Very tiny FOV, very small \& robust.
-Parameters are tunable for current exp. 
-
-Independent of the way that a spacecraft was controlled (distant from the Earth or
-fully autonomously according to an uploaded program), complex operations such as landing, orbit
-maneuvers and docking were never possible without precise knowledge of the craft’s own position
-relative to its surroundings.
-
-The detection of surrounding objects may be done passively, like when a
-detector gathers preexisting signals (like sensing of surrounding light or a magnetic field) and
-actively, such as when a detector produces signals by itself and observes the way they scatter and
-reflect in relation to the surroundings. The first way – passive – is the way all human senses
-operates, as well as all of the possible cameras. The second – the active way – stands for devices like
-RADARs (Radio wave detection and ranging) and LiDARs (Light Detection and Ranging); SONARs
-(Sound Detection and Ranging) are also included, but up to now, they have no relation to space
-science).
-
-Made just after World War II, the first LiDARs were doing weather observations by measuring
-height of clouds. Today, LiDARs are involved in space science, and they are being utilized for the
-Earth’s atmosphere and the Moon’s surface observations. They are used for docking of spacecrafts
-to ISS, and even landing LiDARs is under design for Mars landing missions.
-
+\subsection{Our solution for Korean Lunar Exploration Program}
 Our laboratory developed a LiDAR submodule with the size of a matchbox. This LiDAR
 consumes little power and has a small mass. The LiDAR submodule (or a set of several submodules)
 is suitable for close distance scanning, and it is perfect for Mars and Lunar rovers because it can
-71
 allow them to make detailed scans of the surrounding without considerable payload losses. The
 concept we are developing (MEMS pinhole), basically, is a unique technology that allows not only
 LiDARs development, but also other scientific instruments, such as spectrometers or cameras.
-	
+Thus, our lidar can be easily integrated for the Korean Lunar Exploration Program for use in a lunar rover.
 
+% Being incredibly small and light, while consuming little power, and having good performance our lidar
 
-
-TriDAR is designed for space applications. Therefore, it must withstand the extreme temperature swings (-40C to
-80C) in space and the launching/landing vibration spectrum.
-
-The micro-electro-mechanical systems (MEMS) mirror is an optical beam-steering technology that is
-used in many industries. They are small in size (typically 1-8 mm), so the mirror may be driven by
-electromagnetic, electrostatic or piezo-electric actuators; it is produced in the form of a chip.
-Figure A1. Mirrorcle MEMS mirror chip in LCC20 (left) and DIP24 (right) package.
-Despite that most of the modern LiDARs are based on motor scanning, MEMS mirrors are commonly
-used in LiDARs too (see Figure A2). The advantage of using MEMS mirror instead of a motor is the
-significant decrease of LiDAR’s size and mass in comparison, while the main disadvantage of MEMS
-mirrors in LiDARs is their small FoV (order of 20 deg instead of 360 deg).
-Figure A2. A typical schematic of MEMS mirror-based LiDAR. Laser beam is steered by the MEMS
-mirror. Contrarily, the detector looks everywhere, and it has a large FoV and consequently low
-SNR.
-72
-We improved the MEMS LiDAR idea by focusing the detector FoV only on the laser beam spot, and
-thus the detector ignores all of the background of its surroundings. The number of background
-photons is proportional to the square of the detector’s FoV size. When the FoV size is decreased
-from the typical 20-30 degree to 0.1 degree, the background decreases ~ 105 times. With a
-combination of a narrow band-pass optical filter and quick enough electronics readouts, the
-background drops as low as 0-1 photon per sampling time. It becomes possible to distinguish a signal
-that consists only of 2-3 photons.
-In order to ensure the detector FoV is always directed on laser beam spot, we directed detector
-collimator optical axis onto the MEMS mirror, same as the laser beam (see Figure A3). The detector
-collimator optical axis and laser beam become parallel through beam splitting system. We do not
-utilize a half-transparent 45 deg mirror for beam splitting, as this approach decreases the efficiency of
-laser impulse energy to 25% (50% of outgoing beam is lost, and the same amount of incoming light is
-lost too). Instead, we make both beams parallel by a special mirror construction.
-Figure A3. Schematic of MEMS pinhole LiDAR. Both laser beam and detector FoV are steered by
-the MEMS mirror. Due to this steering, the detector can look only to the laser spot on a target,
-neglecting surroundings. This concept allows a much higher SNR and consequently much higher
-distance range.
-A further advantage of the MEM pinhole LiDAR that we made is silicon photomultiplier (SiPM)
-sensor. The SiPM is s solid-state single photon sensitive detector of small size (1-6 mm), which has a
-lower detection threshold than avalanche photodiodes (APDs) that are utilized in other LiDARs. By
-combining a narrow FoV of the detector collimator and SiPM sensor, we increase LiDAR sensitivity
-several hundred times over. Therefore, the resulting LiDAR does not require huge aperture lenses,
-73
-and it may be implemented as one or two orders smaller in size than other existing LiDARs without
-the loss any of its parameters, such as the distance measurement range.
-
-
-
-
-% CONCLUSION FROM SITE
-suitable for a uniquely wide range of space applications - from orbital mapping and proximity operations of small bodies such as asteroid and comets, to full scale entry, decent and landing operations on other planetary bodies. Low Earth Orbit operations such as rendezvous and docking between spacecraft, and space debris search and collection can also be accommodated
-
-The design combines several advanced technologies which have matured independently of each other into a state-of-the-art system with performance parameters and flexibility greatly exceeding those of the existing instruments. Its key advantage is the operation at the ultimate single photon sensitivity level which minimizes instrument Size, Weight, and Power (SWAP). It is combined with other useful features such as high spatial and range resolution, wide FOV, highly flexible scanning with variable field of regard (FOR), autonomous target acquisition and tracking, and programmable surface measurement rates up to several 3D Megapixels per second (Mpix/s) during orbital mapping and spacecraft entry, descent and landing operations. It advances the state of the art by extending the range of 3D measurements from 10m to 10km, improving the measurement accuracy and the spatial resolution and significantly reducing the impact of incorporating such sensors on the spacecraft in terms of SWAP, spacecraft accommodation complexity, and cost.
-
-
-
+%% OUR LIDAR concept/solution%%%
 
 \section{About ISS-gamma mission(can be checked in space)}
 Preflight test can be done in ISS gamma exp (we can detect trash to check wheter it working or not).
 
-The aim of thise thesis is making lidar which can be used like rendevouz \& rover.
+% The aim of thise thesis is making lidar which can be used like rendevouz \& rover.
 
 \section{Outline}
-This thesis is organized as follows. In chapter 2, I describe my preflight work on the SMT,
-which consists of updates of the onboard FPGA firmware and the reasons for them. In chapter 3, I
-explain the problems that occurred with the SMT hardware in space and the means of its recovery,
-which was found with a preflight model of the UFFO (PFM). Then, in chapter 4, I report on the
-results of the SMT imaging and motor performance tests. Chapter 5 provides an overview of the
-observations made by the SMT in space. Finally, I present a summary in chapter 6.
+This thesis is organized as follows. In chapter 2, I describe 
+% my preflight work on the SMT,
+% which consists of updates of the onboard FPGA firmware and the reasons for them. In chapter 3, I
+% explain the problems that occurred with the SMT hardware in space and the means of its recovery,
+% which was found with a preflight model of the UFFO (PFM). Then, in chapter 4, I report on the
+% results of the SMT imaging and motor performance tests. Chapter 5 provides an overview of the
+% observations made by the SMT in space. Finally, I present a summary in chapter 6.
