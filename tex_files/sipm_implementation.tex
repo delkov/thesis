@@ -141,19 +141,32 @@ Coating: & \textbf{ BBAR (600 - 1050 nm)} \\  \hline
 \end{floatrow}
 \end{figure}
 
+
 \begin{figure}[H]
-\includegraphics[width=0.75\linewidth]{sipm_zemax}
+\includegraphics[width=1\linewidth]{coating}
+\caption{Effect of the filter on the sun spectrum.}
+\label{fig:coating}
+\end{figure}
+
+To make lidar could work in the daytime we should remove background as mush as we can, so an IR optical filter was built into the detector collimator. For sunny day the bandpass filter with 10nm bandwidth should be implemented, i.e by lens coating (Fig. \ref{fig:coating})
+
+
+
+\begin{figure}[H]
+\includegraphics[width=0.7\linewidth]{sipm_zemax}
 \caption{Zemax simulation of SiPM collimator.}
 \label{fig:sipm_pde}
 \end{figure}
 
-Acoording Zemax simulation, the FOV will be $2.8{^\circ}x2.8{^\circ}$,
+Acoording to Zemax simulation, the FOV will be $2.8{^\circ}x2.8{^\circ}$,
 thus we have tolerance for match both laser FoV and SiPM to cover fast axis of laser beam $(0.1{^\circ}x2.5{^\circ}$).
+
+
 
 \subsection{Completed SiPM module}
 
 The finished SiPM PCB is shown in the figure \ref{fig:sipm_PCB}
-It consist of readout electronics for SiPM, laser driver and TDC chip.
+It consist of readout electronics for SiPM, laser driver and TDC chip, thereby integrates all functions of LiDAR itself: driving laser diode, generating high voltage for SiPM, readout and amplification of SiPM signal and measuring time delay between outgoing and return impulse.
 
 \begin{figure}[h]
 \center{\includegraphics[width=0.85\linewidth]{sipm_PCB}} 

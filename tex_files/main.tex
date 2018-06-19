@@ -19,7 +19,7 @@
 % \usepackage[dvips]{graphicx} % not working .. image is hidden
 
 
-\graphicspath{{images/intro/}{images/implementation/}}%путь к рисункам
+\graphicspath{{images/intro/}{images/implementation/}{images/hardware/}}%путь к рисункам
 
 \usepackage{geometry} % Меняем поля страницы
 % \addtolength{\hoffset}{2.5mm} % shift all text
@@ -164,7 +164,11 @@ scientific documents}
 \input{introduction}
 \input{lidar_concept}
 \input{implementation}
-% \input{hardware}
+\input{hardware}
+\input{software}
+\input{results}
+\input{conclusion}
+
 
 \newpage
 AZAZAZA
@@ -183,6 +187,7 @@ process is similar to that used for the \acrfull{lcm}.
 \bibliography{refs}
 
 \input{appendix_a}% это титульный лист
+\input{acknowledgment}
 
 
 
